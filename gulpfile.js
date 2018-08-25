@@ -1,6 +1,7 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
+    imagemin = require('gulp-imagemin'),
     browserSync = require('browser-sync');
 
 
@@ -10,6 +11,12 @@ gulp.task('sass', function () {
         .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('app/css'))
         .pipe(browserSync.reload({ stream: true }))
+});
+
+gulp.task('image-min', function () {
+    gulp.src('src/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('_build/assets/images'))
 });
 
 gulp.task('browser-sync', function () {
