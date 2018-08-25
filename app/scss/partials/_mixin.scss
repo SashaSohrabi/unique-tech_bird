@@ -1,0 +1,29 @@
+// === MEDIA BREAKPOINTS ===
+
+// Small devices (landscape phones, 576px and up)
+@mixin small-screens() {
+  @media only screen and (max-width: 576px) {
+    @content;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin medium-screens() {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@mixin large-screens() {
+  @media only screen and (max-width: 960px) {
+    @content;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@mixin extra-large-screens() {
+  @media only screen and (max-width: 960px) {
+    @content;
+  }
+}
