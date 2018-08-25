@@ -1,2 +1,112 @@
-body {
-  background: yellow; }
+.first-block {
+  background: #ffc038; }
+
+.first-block__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 30px; }
+
+.first-block__nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+.first-block__wraper {
+  margin: 0 auto;
+  width: 75%; }
+
+.first-block__nav li {
+  margin-left: 7px;
+  font-weight: bold; }
+
+.first-block__main {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 50px; }
+
+.first-block__main h1 {
+  color: white;
+  font-size: 48px; }
+
+.first-block__main p {
+  color: white; }
+
+.first-block__nav--decor-none {
+  text-decoration: none;
+  color: #464646; }
+
+.btn {
+  position: relative;
+  cursor: pointer;
+  display: table-cell;
+  border: 0;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: white; }
+
+.btn__black {
+  background: #464646;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  color: white;
+  padding: 10px;
+  left: 60%; }
+
+.container img {
+  width: 850px;
+  left: 70%; }
+
+.first-block__main--left_side {
+  width: 40%; }
+
+.first-block__main--left_side p {
+  font-size: 20px;
+  line-height: 1.7; }
+
+.first-block__main--right_side {
+  width: 60%;
+  margin-top: 7%; }
+
+.first-block__main--right_side .dots {
+  margin-left: 50%; }
+
+.first-block__main--right_side .arrow {
+  position: absolute;
+  top: 15%;
+  left: 31%; }
