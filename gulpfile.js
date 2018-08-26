@@ -2,21 +2,33 @@ var gulp = require('gulp'),
     sass = require('gulp-sass'),
     autoprefixer = require('gulp-autoprefixer'),
     imagemin = require('gulp-imagemin'),
-    browserSync = require('browser-sync');
+    browserSync = require('browser-sync'),
+    nunjucksRender = require('gulp-nunjucks-render');
 
 
 gulp.task('sass', function () {
     return gulp.src('app/scss/**/*.scss')
         .pipe(sass())
-        .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+        .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true}))
         .pipe(gulp.dest('app/css'))
-        .pipe(browserSync.reload({ stream: true }))
+        .pipe(browserSync.reload({stream: true}))
 });
 
 gulp.task('image-min', function () {
-    gulp.src('src/images/*')
+    gulp.src('app/assets/img/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('_build/assets/images'))
+        .pipe(gulp.dest('app/assets/image-min'))
+});
+
+gulp.task('nunjucks', function() {
+    // Gets .html and .nunjucks files in pages
+    return gulp.src('app/pages/**/*.+(html|nunjucks)')
+    // Renders template with nunjucks
+        .pipe(nunjucksRender({
+            path: ['app/templates']
+        }))
+        // output files in app folder
+        .pipe(gulp.dest('app'))
 });
 
 gulp.task('browser-sync', function () {

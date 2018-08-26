@@ -14,33 +14,7 @@
 <body>
 
 <!-- You write code for this content block in another file -->
-
-
-<!-- welcome section -->
-<h2>welcome</h2>
-<!-- what-we-do section -->
-<h2>what-we-do</h2>
-<!-- how-we-work section-->
-<h2>how-we-work</h2>
-<!-- features section -->
-<h2>features</h2>
-<!-- package section -->
-<h2>package</h2>
-<!-- history section -->
-<h2>history</h2>
-
-<!-- related-product section -->
-<h2>related-product</h2>
-<!-- members section -->
-<h2>members</h2>
-<!-- update-support section -->
-<h2>update-support</h2>
-<!-- our-order section -->
-<h2>our-order</h2>
-<!-- bottom section -->
-<h2>bottom</h2>
-
-
+{% block content %} {% endblock %}
 
 </body>
 </html>
