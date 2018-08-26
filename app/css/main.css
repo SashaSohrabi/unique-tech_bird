@@ -1,2 +1,53 @@
-body {
-  background: blueviolet; }
+/* Our Team Members */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.members {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  overflow: hidden; }
+  .members_heading {
+    margin-bottom: 4rem;
+    margin-top: 4rem; }
+    .members_heading .heading_title h4 {
+      font-size: 24px;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-align: center;
+      background: #464646;
+      color: #fff;
+      padding: 10px 60px;
+      display: inline;
+      -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+              box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5); }
+    .members_heading .heading_title .arrow--left {
+      margin-top: -130px; }
+      .members_heading .heading_title .arrow--left__img {
+        margin-top: 90px;
+        margin-right: -10px; }
+  .members_bg {
+    background-color: #ffc038;
+    padding: 60px 0 30px 0; }
+  .members__inner {
+    max-width: 1000px;
+    margin: 0 auto; }
+  .members__team-member {
+    margin-bottom: 20px;
+    font-family: 'Roboto'; }
+    .members__team-member h5 {
+      font-weight: 700;
+      font-size: 16px;
+      color: #f5f5f5;
+      text-transform: uppercase;
+      margin: 20px 0; }
+    .members__team-member p {
+      font-weight: 100;
+      font-size: 16px;
+      color: #f5f5f5;
+      text-transform: uppercase;
+      margin-top: -15px; }
+
+.arrow--right {
+  margin-top: -130px; }
+  .arrow--right__img {
+    margin-top: 90px;
+    margin-right: -10px; }

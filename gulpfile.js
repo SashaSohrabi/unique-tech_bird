@@ -40,8 +40,9 @@ gulp.task('browser-sync', function () {
     });
 });
 
-gulp.task('default', ['browser-sync', 'sass'], function () {
+gulp.task('default', ['nunjucks', 'browser-sync', 'sass'], function () {
     gulp.watch('app/scss/**/*.scss', ['sass']);
+    gulp.watch('app/pages/**/*.+(html|nunjucks)', browserSync.reload);
     gulp.watch('app/*.html', browserSync.reload);
     gulp.watch('app/js/**/*.js', browserSync.reload);
 });
