@@ -1,7 +1,67 @@
-.arrow--right {
-  margin-top: -130px;
-  &__img {
-    margin-top: 90px;
-    margin-right: -10px;
+/* UPDATES & SUPPORT */
+@include google-font('Open+Sans:700|Roboto:100,300,700|Source+Sans+Pro:700');
+.supports {
+  padding-top: 0;
+  padding-bottom: 100px;
+  position: relative;
+  overflow: hidden;
+
+  &__heading {
+    margin: 4rem auto;
+    margin-right: -100px;
+    .heading__title {
+      h4 {
+        font-size: 24px;
+        font-family: 'Source Sans Pro', sans-serif;;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        background: #464646;
+        color: #fff;
+        padding: 10px 60px;
+        display: inline;
+        box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+      }
+      .arrow--right {
+        margin-top: -130px;
+        &__img {
+          margin-top: 90px;
+          margin-right: -10px;
+        }
+      }
+    }
+  }
+
+  &__content {
+    margin-left: 50px;
+    p {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 300;
+    }
+    .supports__btn {
+      button {
+       margin-top: 20px;
+        border: none;
+        background: #ffc038;
+        padding: 15px 30px;
+        color: #464646;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+        transition: background .3s;
+
+        &:hover {
+          background: #464646;
+          color: #fff;
+        }
+      }
+    }
+  }
+  &__inner {
+    max-width: 1005px;
+    margin: 0 auto;
   }
 }
