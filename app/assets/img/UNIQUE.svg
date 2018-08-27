@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="188px" height="38px" viewBox="0 0 188 38">
+<style type="text/css"><![CDATA[
+.style0 {
+  font-size: 26px;
+  font-family: "Roboto-Black";
+  fill: rgb(70,70,70);
+}
+.style1 {
+  font-size: 26px;
+  font-family: "Roboto-Black";
+  fill: rgb(253,252,252);
+}
+]]></style>
+<g><path fillRule="evenodd" d="M 117 35C 117 35 117 3 117 3 117 3 3 3 3 3 3 3 3 35 3 35 3 35 117 35 117 35M 120 38C 120 38-0 38-0 38-0 38-0-0-0-0-0-0 120-0 120-0 120-0 120 38 120 38 120 38 120 38 120 38Z" fill="rgb(255,241,0)"/><text transform="translate(125.00,29.00)" class="style0"><tspan x="0.00 12.92 25.71 40.79" fill="rgb(69,69,69)">TECH</tspan></text><text transform="translate(12.00,28.00)" class="style1"><tspan x="0.00 16.82 33.93 40.14 58.06 74.88" fill="rgb(253,251,251)">UNIQUE</tspan></text></g></svg>
