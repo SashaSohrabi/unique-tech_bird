@@ -1,19 +1,20 @@
 /* Our Team Members */
-@include google-font("Roboto");
+@include google-font('Open+Sans:700|Roboto:100,300,700|Source+Sans+Pro:700');
 
 .members {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 0;
   position: relative;
   overflow: hidden;
 
-  &_heading {
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-    .heading_title {
+  &__heading {
+    margin: 4rem auto;
+    margin-left: -50px;
+    .heading__title {
       h4 {
         font-size: 24px;
-        font-weight: 500;
+        font-family: 'Source Sans Pro', sans-serif;;
+        font-weight: 700;
         text-transform: uppercase;
         text-align: center;
         background: #464646;
@@ -44,7 +45,7 @@
 
   &__team-member {
     margin-bottom:20px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;;
 
     h5{
       font-weight: 700;
