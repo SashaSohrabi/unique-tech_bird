@@ -4,23 +4,26 @@ $header-background: #ffc038;
 .welcome {
     background: $header-background;
 
-}
-.welcome__wrapper--header {
+    &__wrapper {
+    margin: 0 auto;
+    width: 75%;
+    background: $header-background;
+    }
+&__wrapper--header {
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 align-items: flex-start;
 padding-top: 30px;
 }
-.welcome__header {
+&__header {
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 align-items: flex-start;
 padding-top: 30px;
 }
-
-.welcome__nav {
+&__nav {
     display: flex;
     width: 65%;
     padding-top: 10px;
@@ -29,33 +32,46 @@ padding-top: 30px;
     flex-wrap: wrap;
     align-items: flex-start;
 }
-.welcome__wrapper {
-    margin: 0 auto;
-    width: 75%;
-}
-
-.welcome__nav li {
+&__nav li {
     margin-left: 7px;
     font-weight: bold;
 }
-
-.welcome__main {
+&__main {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding-bottom: 50px;
 }
-.welcome__main h1 {
+&__main h1 {
     color: white;
     font-size: 48px;
 }
-.welcome__main p {
+&__main p {
 color: white;
 }
-.welcome__nav--decor-none {
+&__nav--decor-none {
 text-decoration: none;
 color: $grey-color;
-
+}
+&__main--left_side {
+    width: 40%;
+    }
+    &__main--left_side p {
+        font-size: 20px;
+        line-height: 1.7;
+        }
+    &__main--right_side {
+        width: 60%;
+        margin-top: 7%;
+        }
+        &__main--right_side .dots {
+    margin-left: 50%;
+        }
+        &__main--right_side .arrow {
+            position: absolute;
+            top:120px;
+            left:31%
+        }
 }
 .btn {
     position: relative;
@@ -81,25 +97,7 @@ color: $grey-color;
     left: 70%;
 
 }
-.welcome__main--left_side {
-width: 40%;
-}
-.welcome__main--left_side p {
-    font-size: 20px;
-    line-height: 1.7;
-    }
-.welcome__main--right_side {
-    width: 60%;
-    margin-top: 7%;
-    }
-    .welcome__main--right_side .dots {
-margin-left: 50%;
-    }
-    .welcome__main--right_side .arrow {
-        position: absolute;
-        top:120px;
-        left:31%
-    }
+
 
     * {box-sizing: border-box;}
 ul {
