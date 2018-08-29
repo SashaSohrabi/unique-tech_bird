@@ -305,3 +305,24 @@ a.active {background: white;}
 .supports__inner {
   max-width: 1005px;
   margin: 0 auto; }
+
+.hire-us {
+  padding-bottom: 100px;
+  position: relative;
+  overflow: hidden; }
+
+.hire-us__content {
+  max-width: 1005px;
+  margin: 0 auto;
+  background: url(../../../assets/img/Order_us.png) no-repeat center top scroll;
+  -webkit-background-size: cover;
+          background-size: cover;
+  width: 100%;
+  overflow: hidden;
+  max-height: 508px; }
+
+.hire-us__content .hire-us__img-overlay {
+  background-color: rgba(225, 192, 56, 0.5);
+  width: 100%;
+  min-height: 508px;
+  position: relative; }
