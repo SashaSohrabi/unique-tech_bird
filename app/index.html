@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Unique Tech</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/index.js"></script>
     <link rel="stylesheet" href="css/jquery.bxslider.css">
@@ -23,18 +24,18 @@
 
 
 <div class="welcome">
-    <div class="welcome__wrapper">
+  <div class="welcome__wrapper">
 <header class="welcome__wrapper--header">
-  <img src="assets/img/UNIQUE.svg" alt="INIQUE-TECH">
-  <ul class="welcome__nav">
-      <li><a class="welcome__nav--decor-none" href="#">HOME</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">SERVICE</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">ABOUT</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">PORTFOLIO</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">ACADEMIC</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">BLOG</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">CONTACT US<br>(+966-322-322)</a></li>
-    </ul>
+<img src="assets/img/UNIQUE.svg" alt="INIQUE-TECH">
+<ul class="welcome__nav">
+    <li><a class="welcome__nav--decor-none" href="#">HOME</a></li>
+    <li><a class="welcome__nav--decor-none" href="#">SERVICE</a></li>
+    <li><a class="welcome__nav--decor-none" href="#">ABOUT</a></li>
+    <li><a class="welcome__nav--decor-none" href="#">PORTFOLIO</a></li>
+    <li><a class="welcome__nav--decor-none" href="#">ACADEMIC</a></li>
+    <li><a class="welcome__nav--decor-none" href="#">BLOG</a></li>
+    <li><a class="welcome__nav--decor-none" href="#">CONTACT US<br>(+966-322-322)</a></li>
+  </ul>
 </header>  
 <div class="welcome__main">
 <div class="welcome__main--left_side">
@@ -44,14 +45,14 @@
 </div>
 <div class="welcome__main--right_side">
 <div class="container">
-        <script>jQuery(document).ready(function(){
-                jQuery('.bxslider').bxSlider();
-              });</script>
-              <ul class="bxslider">
-                <li><img class="sliderImg" src="assets/img/Main(macbook).png" /></li>
-                <li><img class="sliderImg" src="assets/img/Main(macbook).png" /></li>
-                <li><img class="sliderImg" src="assets/img/Main(macbook).png" /></li>
-              </ul>
+      <script>jQuery(document).ready(function(){
+              jQuery('.bxslider').bxSlider();
+            });</script>
+            <ul class="bxslider">
+              <li><img src="assets/img/Main(macbook).png" /></li>
+              <li><img src="assets/img/Main(macbook).png" /></li>
+              <li><img src="assets/img/Main(macbook).png" /></li>
+            </ul>
 </div>
 <div class="arrow">
 <img src="assets/img/Main(arrow).png">
@@ -61,6 +62,7 @@
 
 </div>
 </div>
+
 <!--<style>
     .container {
         display: grid;
@@ -96,9 +98,103 @@
 <!-- related-product section -->
 <h2>related-product</h2>
 <!-- members section -->
-<h2>members</h2>
+<section class="members">
+    <div class="container">
+        <div class="members__heading">
+            <div class="heading__title text-center arrow--left">
+                <img class="arrow--left__img hidden-xs" src="../../assets/img/How_we_work(arrow).png" alt="member-2"/>
+                <h4 >Our Team Members</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid members_bg">
+        <div class="row members__inner">
+            <div class="text-center">
+                <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-12">
+                    <div class="members__team-member fadeInLeft">
+                        <div class="members-image">
+                            <img class="members-image__img" src="../../assets/img/team/1.svg" width="100" alt="">
+                        </div>
+                        <h5>SAYED MIRAJ</h5>
+                        <p>UI & UX DESIGNER</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="members__team-member fadeInUp">
+                        <div class="members-image">
+                            <img class="members-image__img" src="../../assets/img/team/2.svg"  width="100" alt="team member">
+                        </div>
+                        <h5>PENNY HUSTON</h5>
+                        <p>DEVELOPER</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-12 ">
+                    <div class="members__team-member fadeInDown">
+                        <div class="members-image">
+                            <img class="members-image__img" src="../../assets/img/team/3.svg" width="100" alt="team member">
+                        </div>
+                        <h5>LENNERD SHELLY</h5>
+                        <p>REVIEWER</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="members__team-member fadeInUp">
+                        <div class="members-image">
+                            <img class="members-image__img" src="../../assets/img/team/4.svg" width="100" alt="team member">
+                        </div>
+                        <h5>SHELDON CUPPER</h5>
+                        <p>MARKETTER</p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-sm-6 col-xs-12">
+                    <div class="members__team-member fadeInRight">
+                        <div class="members-image">
+                            <img class="members-image__img" src="../../assets/img/team/5.svg" width="100" alt="team member">
+                        </div>
+                        <h5>ASHLEY COLE</h5>
+                        <p>MANAGEMENT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
 <!-- update-support section -->
-<h2>update-support</h2>
+<section class="supports">
+    <div class="container">
+        <div class="supports__heading">
+            <div class="heading__title text-center arrow--right">
+                <h4>Updates & Support</h4>
+                <img class="arrow--right__img hidden-xs" src="../../assets/img/What_we_do(arrow).png" alt=""/>
+            </div>
+        </div>
+        <div class="row supports__inner">
+            <div class="col-sm-6 col-xs-12">
+                <div class="supports__content">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                    </p>
+                    <div class="supports__btn">
+                        <button class="btn btn-primary">SUPPORT CENTER</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div class="supports__img"><img class="img-responsive"
+                                                src="../../assets/img/Updates_and_support(macbook).png"
+                                                alt="Updates_and_support image"/></div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- our-order section -->
 <h2>our-order</h2>
 <!-- bottom section -->
