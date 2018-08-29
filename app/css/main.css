@@ -275,9 +275,12 @@ a.active {background: white;}
   margin-right: -10px; }
 
 .supports__content {
-  margin-left: 50px; }
+  margin-left: -15px; }
 
 .supports__content p {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.7;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 300; }
