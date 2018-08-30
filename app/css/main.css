@@ -423,10 +423,10 @@ a.active {background: white;}
   text-align: center;
   background: #464646;
   color: #fff;
-  padding: 10px 60px;
   display: inline;
   -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5); }
+          box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  padding: 10px 100px; }
 
 .members__heading .heading__title .arrow--left {
   margin-top: -130px; }
@@ -496,10 +496,10 @@ a.active {background: white;}
   text-align: center;
   background: #464646;
   color: #fff;
-  padding: 10px 60px;
   display: inline;
   -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5); }
+          box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  padding: 10px 100px; }
 
 .supports__heading .heading__title .arrow--right {
   margin-top: -130px; }
