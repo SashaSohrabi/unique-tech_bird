@@ -30,7 +30,8 @@
   padding-top: 30px; }
 
 .welcome__wrapper--logo {
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold; }
 
 .welcome__nav {
   display: -webkit-box;
