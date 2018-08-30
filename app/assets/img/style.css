@@ -1,0 +1,110 @@
+.container {
+    height: 100%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px 350px 350px 350px;
+}
+
+.header {
+    grid-column: 1 / -1;
+}
+
+.img {
+    grid-column: 1 / 2;
+}
+
+.content {
+    grid-column: 2 / -1;
+}
+.content-1 {
+    grid-column: 1 / 2;
+}
+.img-1 {
+    grid-column: 2 / 3;
+}
+
+
+
+
+.container > div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+    padding: 30px;
+  }
+  
+  html, body {
+    box-sizing: border-box;
+    background-color: #ffeead;
+    height: 100%;
+    padding: 10px;
+    margin: 0px;
+  }
+  
+  .container > div:nth-child(1) {
+    background-color: white;	
+
+  }
+  .title {
+      width: 250px;
+      height: 70px;
+      border: 1px solid black;
+      background: gray;
+      border-radius: 5px;
+      color: white;
+  }
+  
+
+  .content p{
+    font-family: Roboto;
+    color:  #363636;
+    font-size: 14px;/* Approximation due to font substitution */
+    font-weight: 300;
+    line-height: 25px;/* Approximation due to font substitution */
+    text-align: left;
+    transform: scaleX(1.0596);/* width and height properties ommitted due to transform */
+    align-self: flex-start;
+  }
+  .content-1 p{
+    font-family: Roboto;
+    color:  #363636;
+    font-size: 14px;/* Approximation due to font substitution */
+    font-weight: 300;
+    line-height: 25px;/* Approximation due to font substitution */
+    text-align: left;
+    transform: scaleX(1.0596);/* width and height properties ommitted due to transform */
+    align-self: flex-start;
+  }
+  button {
+      background: goldenrod;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      align-self: flex-start;
+  }
+  .container > div:nth-child(2) {
+    background-color:white;
+  }
+  
+  .container > div:nth-child(3) {
+    background-color: white;
+  }
+  
+  .container > div:nth-child(4) {
+    background-color: white;
+  }
+  .container > div:nth-child(5) {
+    background-color: white;
+  }
+  .container > div:nth-child(6) {
+    background-color: white;
+  }
+  .container > div:nth-child(7) {
+    background-color: white ;
+  }
+  
+  
