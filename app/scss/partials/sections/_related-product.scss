@@ -1,0 +1,77 @@
+@include google-font("Roboto");
+
+.related {
+	padding-top: 60px;
+	position: relative;
+
+	&_title {
+		h4 {
+	        font-size: 24px;
+	        font-weight: 500;
+	        text-transform: uppercase;
+	        text-align: center;
+	        background: #464646;
+	        color: #fff;
+	        padding: 10px 25px;
+	        display: inline;
+	        box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+	        font-family: 'Roboto';
+      	}
+      	.arrow--right {
+      		margin-top: -150px;
+      		&__img {
+      			margin-top: 90px;
+			    margin-right: -10px;
+			}
+      	}
+
+	}
+	&-main {
+		width: 100%;
+		margin-top: 45px;
+		position: absolute;
+		left: 145px;
+		right: 145px;
+		background: #f4f4f4;
+
+	}
+
+	&--sell {
+		h5 {
+			text-transform: uppercase;
+			color: #6a6a6a;
+			font-weight: bold;
+			font-size: 16px;
+			font-family: 'Roboto';
+		}
+	}
+	&--img {
+		background: url(../../assets/img/sp1.png) no-repeat;
+		height: 145px;
+		width: 170px;
+		.row2 {
+			background: url(../../assets/img/sp2.png) no-repeat;
+		}
+	}
+
+	&--row2 {
+		background: url(../../assets/img/sp2.png) no-repeat;
+	}
+	.second-img {
+		background-position: -220px 0;
+	}
+	.third-img {
+		background-position: -440px 0;
+	}
+	.fourth-img {
+		background-position: -660px 0;
+	}
+	
+
+
+
+
+
+
+
+}

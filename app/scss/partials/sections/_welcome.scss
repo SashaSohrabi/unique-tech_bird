@@ -16,6 +16,9 @@ flex-wrap: wrap;
 align-items: flex-start;
 padding-top: 30px;
 }
+&__wrapper--logo {
+    font-family: 'Roboto', sans-serif;
+}
    &__nav {
     display: flex;
     width: 65%;
@@ -48,17 +51,29 @@ font-weight: bold;
   &__main--left_side {
     width: 40%;
     }
+    &__main--left_side h1 {
+        font-size: 42px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        margin-top: 80px;
+        }
+
     &__main--p {
-        font-size: 20px;
+        margin-top: 50px;
+        font-size: 16px;
         line-height: 1.7;
+        font-family: 'Roboto', sans-serif;
         }
     &__main--right_side {
-        width: 60%;
+        flex: 0 1 60%;
         margin-top: 7%;
+        margin-left: 50px;
+
         }
     &__main--right_side .arrow {
             position: absolute;
             top:120px;
+            margin-top: 50px;
             left:31%
         }
 }
@@ -79,11 +94,14 @@ font-weight: bold;
     color: white;
     padding: 10px;
     left: 60%;
+    margin-top: 30px;
 }
 }
-.container .mackbook {
-    width: 800px;
-    left: 70%;
+.container {
+    &__mackbook {
+    width: 100%;
+    margin-top: 50px;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
