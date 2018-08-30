@@ -81,10 +81,9 @@ font-weight: bold;
     left: 60%;
 }
 }
-.container img {
+.container .mackbook {
     width: 800px;
     left: 70%;
-
 }
 
 @media only screen and (max-width: 1000px) {
@@ -110,81 +109,7 @@ font-weight: bold;
         .arrow img {width: 200px;}
     }
     
-
-
-    .container sliderImg {
-        width: 850px;
-        left: 70%;
-    
-    }
-    
-    
-        * {box-sizing: border-box;}
-    ul {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-    .bx-wrapper {
-      width: 800px;
-      margin: 0 auto;
-      position: relative;
-    }
-    .bx-wrapper img {
-      width: 100%;
-      max-width: 100%;
-      display: block;
-    }
-    .bx-pager {
-      position: absolute;
-      bottom: 20px;
-      width: 100%;
-      text-align: center;
-    }
-    .bx-pager-item {display: inline-block;}
-    .bx-pager-link {
-      text-indent: -9999px;
-      display: block;
-      width: 15px;
-      height: 15px;
-      margin: 0 5px;
-      outline: 0;
-      border: 2px solid white;
-      border-radius: 50%;
-    }
-    a.active {background: white;}
-    .bx-prev, .bx-next {
-      text-decoration: none;
-      position: absolute;
-      top: 50%;
-      margin-top: -25px;
-      background: white;
-      color: #666;
-      width: 50px;
-      height: 50px;
-      opacity: 0;
-      text-align: center;
-      transition: .4s linear;
-      z-index: 10;
-      cursor: pointer;
-    }
-    .bx-wrapper:hover .bx-prev, .bx-wrapper:hover .bx-next, .bx-wrapper:hover .bx-prev:active, .bx-wrapper:hover .bx-next:active {opacity: 1;}
-    .bx-prev {left: 20px;}
-    .bx-next {right: 20px;}
-    .bx-prev:before, .bx-next:before {
-      font-family: "FontAwesome";
-      font-size: 30px;
-      line-height: 50px;
-    }
-    .bx-prev:before {content: "\f104";}
-    .bx-next:before {content: "\f105";}
-    
-    .bx-viewport {width: 800px;}
-    .bx-viewport li {width: 800px;}
-    .bx-viewport li img {width: 100%;}
-
-    .bx-wrapper {margin-left: 70px;}
-
+   
     @media only screen and (max-width: 1200px){
     .container {width: 100%!important;}}
 
@@ -198,9 +123,22 @@ font-weight: bold;
     .container {padding-right: 0; 
        padding-left: 0; }
 
-       @media (max-width: 1000px){
-       .bx-wrapper {margin-left: 0;}}
+       
 
+       @media (max-width: 1405px){
+        .container {width: 700px!important;}
+        .container .mackbook{width: 90%}}
 
+        @media (max-width: 1200px){
+          .container {width: 500px!important;}
+          .container .mackbook{width: 90%}}
 
+          @media (max-width: 900px){
+            .container {width: 350px!important;}
+            .container .mackbook {width: 90%}
+            .welcome__main--right_side {width: 100%;}}
     
+            @media (min-width: 1000px){
+            .welcome__main--left_side {width: 44%;}}
+
+  
