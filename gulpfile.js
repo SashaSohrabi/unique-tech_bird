@@ -22,13 +22,10 @@ gulp.task('image-min', function () {
 });
 
 gulp.task('nunjucks', function() {
-    // Gets .html and .nunjucks files in pages
     return gulp.src('app/pages/**/*.+(html|nunjucks)')
-    // Renders template with nunjucks
         .pipe(nunjucksRender({
             path: ['app/templates']
         }))
-        // output files in app folder
         .pipe(gulp.dest('app'))
 });
 
@@ -43,8 +40,8 @@ gulp.task('browser-sync', function () {
 
 gulp.task('default', ['nunjucks', 'browser-sync', 'sass'], function () {
     gulp.watch('app/scss/**/*.scss', ['sass']);
-    gulp.watch('app/pages/**/*.+(html|nunjucks)', browserSync.reload);
+    //gulp.watch('app/pages/**/*.+(html|nunjucks)', browserSync.reload);
     gulp.watch('app/*.html', browserSync.reload);
     gulp.watch('app/js/**/*.js', browserSync.reload);
-    // gulp.watch(path.watch.html, ['nunjucks']); 
+    gulp.watch('app/templates/**/*.html', ['nunjucks']); 
 });
