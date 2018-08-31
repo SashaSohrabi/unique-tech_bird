@@ -219,7 +219,6 @@ a.active {background: white;}
   font-weight: 300;
   line-height: 25px; }
 
-.what-we-do__description > button {
   display: inline-block;
   vertical-align: middle;
   padding: 0;
@@ -248,40 +247,6 @@ a.active {background: white;}
           box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
   cursor: pointer; }
 
-.what-we-do__description > button:hover {
-  background-color: #464646;
-  color: #ffffff; }
-
-.what-we-do__btn--yellow {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  white-space: nowrap;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  font-weight: bold;
-  font-family: 'Open Sans';
-  text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 151px;
-  height: 50px;
-  background-color: #ffc038;
-  color: #715d3a;
-  text-transform: uppercase;
-  font-size: 14px;
-  -webkit-border-radius: 2px;
-          border-radius: 2px;
-  padding: 15px 30px;
-  -webkit-box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
-          box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
-  cursor: pointer; }
-
-.what-we-do__btn--yellow:hover {
   background-color: #464646;
   color: #ffffff; }
 
