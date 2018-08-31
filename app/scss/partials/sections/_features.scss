@@ -1,141 +1,144 @@
-// .wrapper {
-//     width: 1170px;
-//     margin: 0 auto;
-// }
+$yellow-color: #ffbf37;
+$button-color: #464646;
 
-// .our-features {
-//     width: 100%;
-//     &__title {
-//         position: relative;
-//         width: 30%;
-//         margin: 8rem auto 12rem auto;
-//         padding: 0.8rem 1.8rem;
-//         border-radius: 3px;
-//         background-color: $button-color;
-//         color: white;
-//         text-align: center;
-//         font-size: 1.7rem;
-//         font-family: 'Source Sans Pro';
-//         font-weight: 700;
-//         box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
-//     }
-//     &__arrow {
-//         position: absolute;
-//         top: 1.5rem;
-//         left: 50%;
-//         transform: translateX(60%);
-//         padding-left: 4rem;
-//         object {
-//             width: 100%;
-//             max-width: 80%;
-//         }
-//     }
-//     &__grid {
-//         text-align: left;
-//         display: grid;
-//         grid-template-columns: repeat(3, 1fr);
-//         grid-gap: 1rem;
-//         justify-content: center;
-//     }
-//     &__item {
-//         position: relative;
-//         cursor: pointer;
-//         padding: 5px;
-//         font-family: 'Roboto';
-//         &:hover {
-//             background-color: $yellow-color;
-//             color: white;
-//         }
-//         object {
-//             width: 2.5rem;
-//             position: absolute;
-//             left: 0;
-//             top: 0;
-//             padding: 1rem;
-//         }
-//         &-title {
-//             padding-left: 4rem;
-//             font-size: 1,8rem;
-//             font-weight: 400;
-//         }
-//         &-text {
-//             padding-left: 4rem;
-//             font-size: 1,4rem;
-//             font-weight: 300;
-//         }
-//     }
-// }
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
 
-// // MEDIA
+.our-features {
+    width: 100%;
+    &__title {
+        position: relative;
+        width: 30%;
+        margin: 8rem auto 12rem auto;
+        padding: 0.8rem 1.8rem;
+        border-radius: 3px;
+        background-color: $button-color;
+        color: white;
+        text-align: center;
+        font-size: 1.7rem;
+        font-family: 'Source Sans Pro';
+        font-weight: 700;
+        box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+    }
+    &__arrow {
+        position: absolute;
+        top: 1.5rem;
+        left: 50%;
+        transform: translateX(60%);
+        padding-left: 4rem;
+        object {
+            width: 100%;
+            max-width: 80%;
+        }
+    }
+    &__grid {
+        text-align: left;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px 20px;
+        justify-content: center;
+    }
+    &__item {
+        position: relative;
+        cursor: pointer;
+        padding: 15px;
+        font-family: 'Roboto';
+        &:hover {
+            background-color: $yellow-color;
+            color: white;
+        }
+        object {
+            width: 60px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            padding: 15px 10px;
+        }
+        &-title {
+            padding-left: 55px;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        &-text {
+            padding-left: 55px;
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+}
 
-// @media (min-width: 1200px) {
-//     html {
-//         font-size: 16px;
-//     }
+// MEDIA
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
     
-//     .wrapper {
-//         width: 1170px;
-//     }
+    .wrapper {
+        width: 1170px;
+    }
     
-//     .our-features {
-//         &__arrow {
-//             transform: translateX(65%);
-//             object {
-//                 max-width: 80%;
-//             }
-//         }
-//         &__title {
-//             margin: 10rem auto 15rem auto;
-//         }
-//         &__grid {
-//             grid-template-columns: repeat(3, 1fr);
-//         }
-//     }
-// }
+    .our-features {
+        &__arrow {
+            transform: translateX(65%);
+            object {
+                max-width: 80%;
+            }
+        }
+        &__title {
+            margin: 10rem auto 15rem auto;
+        }
+        &__grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
 
-// @media (max-width: 1199px) and (min-width: 992px) {
-//     html {
-//         font-size: 14px;
-//     }
+@media (max-width: 1199px) and (min-width: 992px) {
+    html {
+        font-size: 14px;
+    }
 
-//     .wrapper {
-//         width: 970px;
-//     }
+    .wrapper {
+        width: 970px;
+    }
 
-//     .our-features {
-//         &__title {
-//             margin: 5rem auto 8rem auto;
-//             font-weight: 600;
-//         }
-//         &__grid {
-//             grid-template-columns: repeat(2, 45%);
-//         }
-//     }
-// }
+    .our-features {
+        &__title {
+            margin: 5rem auto 8rem auto;
+            font-weight: 600;
+        }
+        &__grid {
+            grid-template-columns: repeat(2, 45%);
+        }
+    }
+}
 
-// @media (max-width: 991px) and (min-width: 768px) {
-//     html {
-//         font-size: 14px;
-//     }
+@media (max-width: 991px) and (min-width: 768px) {
+    html {
+        font-size: 14px;
+    }
 
-//     .wrapper {
-//         width: 750px;
-//     }
+    .wrapper {
+        width: 750px;
+    }
 
-//     .our-features {
-//         &__arrow {
-//             object {
-//                 max-width: 60%;
-//             }
-//         }
-//         &__title {
-//             width: 50%;
-//             margin: 3rem auto 6rem auto;
-//             font-weight: 500;
-//             font-size: 1.5rem;
-//         }
-//         &__grid {
-//             grid-template-columns: 80%;
-//         }
-//     }
-// }
+    .our-features {
+        &__arrow {
+            object {
+                max-width: 60%;
+            }
+        }
+        &__title {
+            width: 50%;
+            margin: 3rem auto 6rem auto;
+            font-weight: 500;
+            font-size: 1.5rem;
+        }
+        &__grid {
+            grid-template-columns: 80%;
+        }
+    }
+}
