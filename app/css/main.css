@@ -165,11 +165,141 @@ a.active {background: white;}
 .bx-viewport li img {width: 100%;}
 
 */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,700|Source+Sans+Pro:700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,700|Source+Sans+Pro:700);
+.wrapper {
+  width: 1170px;
+  margin: 0 auto; }
+
+.what-we-do {
+  width: 100%; }
+
+.what-we-do__flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 200px; }
+
+.what-we-do__image {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 50%;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+  margin-right: 10px; }
+
+.what-we-do__description {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 50%;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  font-family: Roboto;
+  text-align: left; }
+
+.what-we-do__description .h4 {
+  color: #242424;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.what-we-do__description > p {
+  color: #363636;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px; }
+
+.what-we-do__description > button {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  white-space: nowrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 151px;
+  height: 50px;
+  background-color: #ffc038;
+  color: #715d3a;
+  text-transform: uppercase;
+  font-size: 14px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  padding: 15px 30px;
+  -webkit-box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+  cursor: pointer; }
+
+.what-we-do__description > button:hover {
+  background-color: #464646;
+  color: #ffffff; }
+
+.what-we-do__btn--yellow {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  white-space: nowrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 151px;
+  height: 50px;
+  background-color: #ffc038;
+  color: #715d3a;
+  text-transform: uppercase;
+  font-size: 14px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  padding: 15px 30px;
+  -webkit-box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+          box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+  cursor: pointer; }
+
+.what-we-do__btn--yellow:hover {
+  background-color: #464646;
+  color: #ffffff; }
+
+.text-align-right {
+  text-align: right; }
+
+@media (min-width: 1200px) {
+  .wrapper {
+    width: 1170px; } }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .wrapper {
+    width: 970px; } }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .wrapper {
+    width: 750px; } }
+
 .history {
   width: 100%;
   background: url(../../assets/img/history-bg.png) no-repeat;
