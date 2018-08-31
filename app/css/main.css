@@ -219,7 +219,6 @@ a.active {background: white;}
   font-weight: 300;
   line-height: 25px; }
 
-.what-we-do__button {
   display: inline-block;
   vertical-align: middle;
   padding: 0;
@@ -248,7 +247,6 @@ a.active {background: white;}
           box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
   cursor: pointer; }
 
-.what-we-do__button:hover {
   background-color: #464646;
   color: #ffffff; }
 
