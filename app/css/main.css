@@ -268,6 +268,16 @@ a.active {background: white;}
   .wrapper {
     width: 750px; } }
 
+.how-we-work {
+  width: 100%;
+  background-image: url(../../../assets/img/how_we_work_bg.png);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat; }
+
+.how-we-work__image {
+  width: 100%; }
+
 .wrapper {
   width: 1170px;
   margin: 0 auto; }
