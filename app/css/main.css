@@ -646,6 +646,11 @@ a:nth-child(2) .our-packages__button-item {
   background-color: #464646;
   color: #ffffff; }
 
+.history:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 @media (min-width: 576px) and (max-width: 767px) {
   .history__right-text {
     margin-top: 10px;
