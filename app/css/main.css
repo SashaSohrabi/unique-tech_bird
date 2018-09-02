@@ -1023,6 +1023,9 @@ a:nth-child(2) .our-packages__button-item {
 .supports__heading {
   margin: 9.375em auto; }
 
+.supports__heading .heading__title {
+  text-align: center; }
+
 .supports__heading .heading__title h4 {
   position: relative;
   font-size: 24px;
