@@ -36,6 +36,12 @@
 		}
 
 	}
+
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
 }
 
 @media (max-width: 767px) {

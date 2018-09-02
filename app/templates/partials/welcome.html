@@ -1,39 +1,98 @@
-<div class="welcome">
-    <div class="welcome__wrapper">
-<header class="welcome__wrapper--header">
-  <img src="assets/img/UNIQUE.svg" alt="INIQUE-TECH">
-  <ul class="welcome__nav">
-      <li><a class="welcome__nav--decor-none" href="#">HOME</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">SERVICE</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">ABOUT</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">PORTFOLIO</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">ACADEMIC</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">BLOG</a></li>
-      <li><a class="welcome__nav--decor-none" href="#">CONTACT US<br>(+966-322-322)</a></li>
-    </ul>
-</header>  
-<div class="welcome__main">
-<div class="welcome__main--left_side">
-<h1>UNIQUE-TECH<br>APP DEVELOPMENT</h1>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam provident iusto placeat magnam odit dolore nostrum corporis optio velit voluptatem, aperiam doloribus. Illo unde iste deleniti quidem quo harum id.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, deserunt voluptas. Maiores deleniti, quis nihil repellat, exercitationem pariatur quo, veniam eligendi quam similique quia fugiat labore sint corrupti distinctio in?<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe expedita obcaecati quos voluptates odit eaque debitis veniam. Ab maxime, ipsum quis praesentium sequi expedita sunt beatae dolorem dignissimos eum! Eaque!</p>
-<button class="btn__black">View More  <img src="assets/img/Main(button).png"></button>
-</div>
-<div class="welcome__main--right_side">
-<div class="container">
-        <script>jQuery(document).ready(function(){
-                jQuery('.bxslider').bxSlider();
-              });</script>
-              <ul class="bxslider">
-                <li><img src="assets/img/Main(macbook).png" /></li>
-                <li><img src="assets/img/Main(macbook).png" /></li>
-                <li><img src="assets/img/Main(macbook).png" /></li>
-              </ul>
+<!-- welcome section -->
 
+<div class="main-menu">
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container" style="max-width: 1005px; margin: 0 auto;">
+            <!-- mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="logo"/></a>
+            </div>
+            <!-- content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active active__item"><a class="active__link" href="#home">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="active__item"><a class="active__link" href="#works-area">Service</a></li>
+                    <li class="active__item"><a class="active__link" href="#our-team">About</a></li>
+                    <li class="active__item"><a class="active__link" href="#our-portfolio">Portfolio</a></li>
+                    <li class="active__item"><a class="active__link" href="#our-history">Academic</a></li>
+                    <li class="active__item"><a class="active__link" href="#our-feature">Blog</a></li>
+                    <li class="active__item"><a class="active__link" href="#">Contact Us</a></li>
+                    <div class="contact-number text-right">
+                        <ul>
+                            <li class="">(+001122334)</li>
+                        </ul>
+                    </div>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
 </div>
-<div class="arrow">
-<img src="assets/img/Main(arrow).png">
-</div>
-</div>
-</div>
-</div>
-</div>
+<!--Home page style-->
+<header class="header">
+    <div class="container">
+
+        <div class="row">
+            <div class="homepage-style">
+
+                <div class="top-arrow hidden-sm hidden-xs  text-center"><img src="assets/img/top-arrow.png" alt=""/>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="unique-apps">
+                        <h2 class="unique-apps__heading">UNIQUE-TECH<br>APP DEVELOPMENT</h2>
+                        <div class="unique-apps__desc">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt
+                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                ullamco.
+                            </p>
+                            <p class="desc__content">
+                                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                                in
+                                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                                cupidatat non proident, sunt in culpa qui officia deserunt mollit.
+                            </p>
+                        </div>
+
+                        <button class="btn btn-primary unique-apps__btn">View More <span><i
+                                class="btn__icon fa fa-paper-plane"></i></span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="slider-area">
+                        <div class="carousel slide">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+                                    <img src="assets/img/slider-img.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slider-img.png" alt=""/>
+                                </div>
+                                <div class="item">
+                                    <img src="assets/img/slider-img.png" alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
