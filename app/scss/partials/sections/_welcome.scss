@@ -10,6 +10,11 @@
   .navbar {
     margin-bottom: 20px;
     border: 1px solid transparent;
+
+    .container {
+      max-width: 1005px;
+      margin: 0 auto;
+    }
   }
 
   .navbar-default {

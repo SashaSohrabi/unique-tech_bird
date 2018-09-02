@@ -17,6 +17,10 @@
   margin-bottom: 20px;
   border: 1px solid transparent; }
 
+.main-menu .navbar .container {
+  max-width: 1005px;
+  margin: 0 auto; }
+
 .main-menu .navbar-default {
   background-color: #ffc038;
   border: transparent;
@@ -831,9 +835,19 @@ a:nth-child(2) .our-packages__button-item {
   text-align: center;
   background: #464646;
   color: #fff;
+  padding: 10px 60px;
   display: inline;
   -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  background: #464646;
+  color: #fff;
+  display: inline;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
   padding: 10px 100px; }
 
 .members__heading .heading__title .arrow--left {
