@@ -3,8 +3,34 @@
     background-image: url(../../../assets/img/how_we_work_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 50px;
+    padding: 50px 0;
     &__image {
         width: 100%;
+    }
+    &__image-mobile {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .how-we-work__image {
+        display: none;
+        visibility: hidden;
+    }
+    .how-we-work__image-mobile {
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 767px) {
+    .how-we-work__image {
+        display: none;
+        visibility: hidden;
+    }
+    .how-we-work__image-mobile {
+        display: block;
+        visibility: visible;
     }
 }

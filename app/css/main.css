@@ -249,10 +249,30 @@
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 50px; }
+  padding: 50px 0; }
 
 .how-we-work__image {
   width: 100%; }
+
+.how-we-work__image-mobile {
+  display: none;
+  visibility: hidden; }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .how-we-work__image {
+    display: none;
+    visibility: hidden; }
+  .how-we-work__image-mobile {
+    display: block;
+    visibility: visible; } }
+
+@media (max-width: 767px) {
+  .how-we-work__image {
+    display: none;
+    visibility: hidden; }
+  .how-we-work__image-mobile {
+    display: block;
+    visibility: visible; } }
 
 .wrapper {
   margin: 0 auto; }
