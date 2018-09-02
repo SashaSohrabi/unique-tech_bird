@@ -6,7 +6,7 @@
   &__content {
     max-width: 1005px;
     margin: 0 auto;
-    background: url(../../../assets/img/Order_us.png) no-repeat center top scroll;
+    background: url(../assets/img/Order_us.png) no-repeat center top scroll;
     background-size: cover;
     width: 100%;
     overflow: hidden;
@@ -25,6 +25,7 @@
         bottom: 0;
         height: 95px;
         overflow: hidden;
+
         h3 {
           font-family: 'Open Sans', sans-serif;
           font-size: 22px;
@@ -33,6 +34,10 @@
           color: white;
           margin: 35px 0 35px 50px;
           float: left;
+          @include small-screens {
+            font-size: 18px;
+            margin: 5px 10px;
+          }
         }
 
         .hire-btn {
@@ -49,14 +54,32 @@
           transition: background .3s;
           float: right;
           box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
+          @include small-screens {
+            margin-top: 5px;
+            margin-right: 10px;
+          }
 
           &:hover {
             background: #3a3a3a;
             color: #fff;
           }
         }
-      }
 
+      }
     }
   }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 3s;
 }
