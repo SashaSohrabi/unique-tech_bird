@@ -10,6 +10,10 @@
 .main-menu {
   font-family: 'roboto', sans-serif; }
 
+.main-menu__logo {
+  width: 190px;
+  height: 38px; }
+
 .main-menu li {
   list-style: none; }
 
@@ -68,6 +72,11 @@
 .header .homepage-style {
   padding-top: 100px;
   max-width: 1005px;
+  margin: 0 auto; }
+
+.header .homepage-style .top-arrow {
+  width: 393px;
+  height: 50px;
   margin: 0 auto; }
 
 .header .unique-apps {
@@ -1012,42 +1021,46 @@ a:nth-child(2) .our-packages__button-item {
   overflow: hidden; }
 
 .supports__heading {
-  margin: 4rem auto;
-  margin-right: -100px; }
+  margin: 9.375em auto; }
+
+.supports__heading .heading__title {
+  text-align: center; }
 
 .supports__heading .heading__title h4 {
+  position: relative;
   font-size: 24px;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
   background: #464646;
   color: #fff;
+  padding: 10px 100px;
   display: inline;
   -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
-  padding: 10px 100px; }
+          box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5); }
 
-.supports__heading .heading__title .arrow--right {
-  margin-top: -130px; }
+@media only screen and (max-width: 576px) {
+  .supports__heading .heading__title h4 {
+    padding: 10px; } }
 
 .supports__heading .heading__title .arrow--right__img {
-  margin-top: 90px;
-  margin-right: -10px; }
-
-.supports__content {
-  margin-left: -15px; }
+  width: 70px;
+  height: 110px;
+  margin-top: 10px;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(300%);
+      -ms-transform: translateX(300%);
+          transform: translateX(300%); }
 
 .supports__content p {
-  letter-spacing: 1px;
-  word-spacing: 1px;
   line-height: 1.7;
   margin: 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 300; }
 
 .supports__content .supports__btn button {
-  margin-top: 20px;
+  margin: 20px 0;
   border: none;
   background: #ffc038;
   padding: 15px 30px;
