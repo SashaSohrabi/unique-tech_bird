@@ -24,14 +24,18 @@
 .main-menu .navbar-default {
   background-color: #ffc038;
   border: transparent;
-  padding-top: 50px; }
+  padding-top: 30px;
+  padding-bottom: 20px; }
 
 .main-menu .navbar-default .navbar-nav .active__link {
   background-color: transparent;
   color: #464646;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
 
 .main-menu .navbar-default .navbar-nav .active__link:hover {
   background-color: transparent;
@@ -45,12 +49,11 @@
   font-size: 12px;
   font-weight: 700;
   color: #464646;
-  margin-right: 14px;
-  margin-bottom: 10px; }
+  margin-right: 14px; }
 
 .header {
   font-family: 'roboto', sans-serif;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 60px;
   margin-bottom: 150px;
   position: relative;
@@ -109,9 +112,9 @@
   padding: 15px 20px;
   color: #fff;
   font-size: 16px;
-  -webkit-transition: .5s;
-  -o-transition: .5s;
-  transition: .5s;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
   border: none;
   -webkit-border-radius: 2px;
           border-radius: 2px;

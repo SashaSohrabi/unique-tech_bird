@@ -20,7 +20,8 @@
   .navbar-default {
     background-color: #ffc038;
     border: transparent;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     .navbar-nav {
       .active {
         &__link {
@@ -29,6 +30,7 @@
           font-size: 14px;
           text-transform: uppercase;
           font-weight: 700;
+          transition:.3s;
           &:hover {
             background-color: transparent;
             color: #fff;
@@ -48,14 +50,13 @@
     font-weight: 700;
     color: #464646;
     margin-right: 14px;
-    margin-bottom: 10px;
   }
 
 }
 
 .header {
   font-family: 'roboto', sans-serif;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 60px;
   margin-bottom: 150px;
   position: relative;
@@ -112,7 +113,7 @@
       padding: 15px 20px;
       color: #fff;
       font-size: 16px;
-      transition: .5s;
+      transition: .3s;
       border: none;
       border-radius: 2px;
       box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
