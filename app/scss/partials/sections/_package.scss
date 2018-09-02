@@ -1,5 +1,34 @@
 @include google-font('Open+Sans:400,700|Roboto:100,300,400,500,700|Source+Sans+Pro:700');
 
+.headings {
+    &__title {
+        position: relative;
+        width: 30%;
+        margin: 5rem auto 10rem auto;
+        padding: 10px 20px;
+        border-radius: 3px;
+        background-color: $button-color;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Source Sans Pro';
+        font-weight: 700;
+        box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+        text-transform: uppercase;
+    }
+    &__arrow-left {
+        position: absolute;
+        top: 1.5rem;
+        right: 50%;
+        transform: translateX(-60%);
+        padding-right: 4rem;
+        object {
+            width: 100%;
+            max-width: 80%;
+        }
+    }
+}
+
 .our-packages {
     font-family: 'Roboto', sans-serif;;
     width: 100%;
@@ -17,7 +46,7 @@
         }
     }
     &__grid {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
         display: grid;
@@ -75,12 +104,11 @@
 
     
     &__button {
-        width: 80%;
+        width: 100%;
         margin: 30px auto;
         display: flex;
         justify-content: space-around;
         padding: 0;
-        transition: all 0.5s ease-in-out;
         a:nth-child(1):hover &--grey {
             background: #888888;
         }
@@ -157,18 +185,18 @@
 
 @media (min-width: 1200px) {
     .wrapper {
-        width: 1170px;
+        max-width: 1005px;
     }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
     .wrapper {
-        width: 970px;
+        max-width: 970px;
     }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
     .wrapper {
-        width: 750px;
+        max-width: 750px;
     }
 }
