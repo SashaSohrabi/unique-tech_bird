@@ -2,7 +2,7 @@
 @include google-font('Open+Sans:700|Roboto:100,300,700|Source+Sans+Pro:700');
 
 .members {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 0;
   position: relative;
   overflow: hidden;
@@ -15,6 +15,7 @@
     margin: em(150px) auto;
 
     .heading__title {
+      text-align: center;
       h4 {
         font-size: 24px;
         font-family: 'Source Sans Pro', sans-serif;;

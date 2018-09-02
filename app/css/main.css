@@ -815,7 +815,7 @@ a:nth-child(2) .our-packages__button-item {
 
 /* Our Team Members */
 .members {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 0;
   position: relative;
   overflow: hidden; }
@@ -825,6 +825,9 @@ a:nth-child(2) .our-packages__button-item {
 
 .members__heading {
   margin: 9.375em auto; }
+
+.members__heading .heading__title {
+  text-align: center; }
 
 .members__heading .heading__title h4 {
   font-size: 24px;
