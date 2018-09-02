@@ -1,7 +1,7 @@
 @include google-font("Roboto");
 
 .wrapper {
-    width: 1170px;
+    // width: 1170px;
     margin: 0 auto;
 }
 
@@ -56,6 +56,7 @@
         padding: 15px 30px;
         box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
         cursor: pointer;
+        transition: 0.3s;
         &:hover {
             background-color: #464646;
             color: #ffffff;
@@ -69,18 +70,18 @@
 
 @media (min-width: 1200px) {
     .wrapper {
-        width: 1170px;
+        max-width: 1005px;
     }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
     .wrapper {
-        width: 970px;
+        max-width: 970px;
     }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
     .wrapper {
-        width: 750px;
+        max-width: 750px;
     }
 }
