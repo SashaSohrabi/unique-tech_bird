@@ -1091,7 +1091,7 @@ a:nth-child(2) .our-packages__button-item {
 .hire-us__content {
   max-width: 1005px;
   margin: 0 auto;
-  background: url(../../../assets/img/Order_us.png) no-repeat center top scroll;
+  background: url(../assets/img/Order_us.png) no-repeat center top scroll;
   -webkit-background-size: cover;
           background-size: cover;
   width: 100%;
