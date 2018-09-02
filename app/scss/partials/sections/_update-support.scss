@@ -23,7 +23,8 @@
         display: inline;
         box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
         @include small-screens {
-          padding: 10px;
+          font-size: 16px;
+          padding: 10px 77px;
         }
       }
       .arrow--right {

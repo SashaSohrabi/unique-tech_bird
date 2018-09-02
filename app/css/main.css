@@ -774,6 +774,10 @@ a:nth-child(2) .our-packages__button-item {
           box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
   font-family: 'Source Sans Pro', sans-serif; }
 
+@media only screen and (max-width: 576px) {
+  .related_title .header4 {
+    font-size: 16px; } }
+
 .related_title .arrow--right__img {
   margin-top: 10px;
   width: 70px;
@@ -872,7 +876,8 @@ a:nth-child(2) .our-packages__button-item {
 
 @media only screen and (max-width: 576px) {
   .members__heading .heading__title h4 {
-    padding: 10px; } }
+    font-size: 16px;
+    padding: 10px 77px; } }
 
 .members__heading .heading__title .arrow--left__img {
   width: 70px;
@@ -1058,7 +1063,8 @@ a:nth-child(2) .our-packages__button-item {
 
 @media only screen and (max-width: 576px) {
   .supports__heading .heading__title h4 {
-    padding: 10px; } }
+    font-size: 16px;
+    padding: 10px 77px; } }
 
 .supports__heading .heading__title .arrow--right__img {
   width: 70px;
