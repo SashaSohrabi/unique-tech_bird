@@ -2,6 +2,7 @@
 @include google-font('Source+Sans+Pro');
 
 .history {
+	margin-bottom: 80px; //added by shb
 	width: 100%;
 	background: url(../../assets/img/history-bg.png) no-repeat;
 	background-size: cover;
@@ -37,6 +38,7 @@
 
 	}
 
+	//ClearFix added by shb
 	&:after {
 		content: "";
 		display: table;
