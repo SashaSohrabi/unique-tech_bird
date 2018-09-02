@@ -7,6 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,700|Source+Sans+Pro:700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,700|Source+Sans+Pro:700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,500,700|Source+Sans+Pro:700);
 .main-menu {
   font-family: 'roboto', sans-serif; }
 
@@ -1169,3 +1170,85 @@ a:nth-child(2) .our-packages__button-item {
 .fadeIn {
   -webkit-animation: fadeIn 3s;
           animation: fadeIn 3s; }
+
+.footer {
+  background: #363636;
+  color: #fff; }
+
+.footer__content {
+  max-width: 1005px;
+  margin: 0 auto;
+  padding-top: 35px; }
+
+.footer__content .footer__heading {
+  margin-bottom: 30px;
+  color: #e6e9ed;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500; }
+
+@media only screen and (max-width: 768px) {
+  .footer__content .footer__heading {
+    text-align: center; } }
+
+@media only screen and (max-width: 576px) {
+  .footer__content .footer__heading {
+    text-align: center; } }
+
+.footer__content .footer__menu {
+  list-style-type: none;
+  padding: 0; }
+
+@media only screen and (max-width: 768px) {
+  .footer__content .footer__menu {
+    text-align: center; } }
+
+@media only screen and (max-width: 576px) {
+  .footer__content .footer__menu {
+    text-align: center; } }
+
+.footer__content .footer__menu .footer__item .footer__link {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  color: #aab2bd;
+  -webkit-transition: color .3s;
+  -o-transition: color .3s;
+  transition: color .3s; }
+
+.footer__content .footer__menu .footer__item .footer__link:hover {
+  color: #fff; }
+
+.footer__social {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center; }
+
+.footer__social .social-net {
+  margin-bottom: 30px; }
+
+.footer__social .social-net__link .social-net__item {
+  background: #ffc038;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  -webkit-transition: background .3s;
+  -o-transition: background .3s;
+  transition: background .3s;
+  padding-top: 11px; }
+
+.footer__social .social-net__link .social-net__item:hover {
+  background: #D6A232; }
+
+.footer__social .footer__copyright {
+  font-family: 'Roboto', sans-serif;
+  opacity: .8;
+  font-weight: 300;
+  font-size: 16px; }
