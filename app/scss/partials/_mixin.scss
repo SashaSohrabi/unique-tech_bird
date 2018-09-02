@@ -16,14 +16,14 @@
 
 // Large devices (desktops, 992px and up)
 @mixin large-screens() {
-  @media only screen and (max-width: 960px) {
+  @media only screen and (max-width: 992px) {
     @content;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @mixin extra-large-screens() {
-  @media only screen and (max-width: 960px) {
+  @media only screen and (max-width: 1200px) {
     @content;
   }
 }
