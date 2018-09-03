@@ -144,9 +144,13 @@
 
   .carousel-indicators {
     bottom: -50px;
-    li:nth-of-type(n+2) {
+    &__item {
       background: #464646;
       border: 0;
+    }
+
+    .active {
+      background: #ffffff;
     }
   }
 

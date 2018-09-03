@@ -145,9 +145,12 @@
 .header .carousel-indicators {
   bottom: -50px; }
 
-.header .carousel-indicators li:nth-of-type(n+2) {
+.header .carousel-indicators__item {
   background: #464646;
   border: 0; }
+
+.header .carousel-indicators .active {
+  background: #ffffff; }
 
 .header .slider-area {
   margin-left: -100px;
