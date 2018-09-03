@@ -1311,3 +1311,28 @@ a:nth-child(2) .our-packages__button-item {
   opacity: .8;
   font-weight: 300;
   font-size: 16px; }
+
+.scrollup {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  background: #ffc038;
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  font-weight: bold;
+  -webkit-border-radius: 100%;
+          border-radius: 100%;
+  -webkit-transition: all 500ms .2s;
+  -o-transition: all 500ms .2s;
+  transition: all 500ms .2s;
+  cursor: pointer; }
+
+.scrollup:hover {
+  background: #de9800;
+  color: #fff;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); }
