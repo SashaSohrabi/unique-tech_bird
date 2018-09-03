@@ -614,19 +614,45 @@ a:nth-child(2) .our-packages__button-item {
   width: 100%;
   background: url(../../assets/img/history-bg.png) no-repeat;
   -webkit-background-size: cover;
-          background-size: cover; }
+          background-size: cover;
+  padding: 65px 0; }
+
+.history__flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row; }
 
 .history__img {
-  padding-left: 145px;
-  padding-top: 65px;
-  padding-bottom: 65px;
-  float: left; }
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 50%;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center; }
+
+.history__img > img {
+  width: 100%; }
 
 .history__right {
-  padding-top: 65px;
-  padding-right: 145px;
-  padding-bottom: 65px;
-  margin-left: 620px; }
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 50%;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  padding-left: 25px; }
 
 .history__right-text {
   color: #7f7f7f;
@@ -696,108 +722,6 @@ a:nth-child(2) .our-packages__button-item {
   content: "";
   display: table;
   clear: both; }
-
-@media (max-width: 767px) {
-  .history__right-text {
-    margin-top: -110px;
-    font-size: 14px;
-    line-height: 28px;
-    margin-left: -10px;
-    margin-top: -465px; }
-  .history__right {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    margin-left: 10px; }
-  .history__img {
-    padding: 0px;
-    margin: 65px 10px 10px 20px; }
-  .history__img img {
-    height: 100%;
-    width: 100%; }
-  .history__right-btn--grey {
-    margin-left: 50%;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    letter-spacing: 2px;
-    font-size: 18px;
-    margin-top: -990px; }
-  .history__right-btn--yellow {
-    margin-left: 50%;
-    -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-    font-size: 12px;
-    margin-top: 10px; } }
-
-@media (min-width: 768px) and (max-width: 959px) {
-  .history__right-text {
-    margin-top: 10px;
-    font-size: 14px; }
-  .history__right {
-    padding-right: 30px;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    margin-left: 300px; }
-  .history__img {
-    padding-left: 30px;
-    margin: 10px 10px 10px 20px; }
-  .history__img img {
-    height: 250px;
-    width: 250px; }
-  .history__right-btn--grey {
-    letter-spacing: 2px;
-    font-size: 18px; }
-  .history__right-btn--yellow {
-    font-size: 12px;
-    margin-top: 10px; } }
-
-@media (min-width: 960px) and (max-width: 1194px) {
-  .history__right-text {
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 28px; }
-  .history__right {
-    padding-right: 80px;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    margin-left: 480px; }
-  .history__img {
-    padding-left: 80px;
-    padding-top: 55px; }
-  .history__img img {
-    height: 380px;
-    width: 380px; }
-  .history__right-btn--grey {
-    font-size: 18px; }
-  .history__right-btn--yellow {
-    margin-top: 10px;
-    font-size: 12px; } }
-
-@media (min-width: 1195px) and (max-width: 1300px) {
-  .history__right-text {
-    margin-top: 10px;
-    font-size: 17px;
-    line-height: 30px; }
-  .history__right {
-    padding-right: 100px;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    margin-left: 500px; }
-  .history__img {
-    padding-left: 100px;
-    padding-top: 55px; }
-  .history__img img {
-    height: 380px;
-    width: 380px; }
-  .history__right-btn--grey {
-    letter-spacing: 2px;
-    font-size: 18px; }
-  .history__right-btn--yellow {
-    font-size: 12px;
-    margin-top: 10px; } }
 
 .related {
   max-width: 1270px;
