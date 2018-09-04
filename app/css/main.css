@@ -94,6 +94,18 @@
   height: 50px;
   margin: 0 auto; }
 
+@media only screen and (max-width: 768px) {
+  .header .homepage-style {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; } }
+
 .header .unique-apps {
   margin-top: -60px;
   max-width: 400px; }
@@ -104,7 +116,8 @@
 
 @media only screen and (max-width: 768px) {
   .header .unique-apps {
-    max-width: 100%; } }
+    max-width: 100%;
+    margin-top: 0; } }
 
 .header .unique-apps__heading {
   font-size: 42px;

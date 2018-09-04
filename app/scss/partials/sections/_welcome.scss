@@ -93,6 +93,11 @@
       height: 50px;
       margin: 0 auto;
     }
+
+    @include medium-screens {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
   .unique-apps {
@@ -103,6 +108,7 @@
     }
     @include medium-screens {
       max-width: 100%;
+      margin-top: 0;
     }
 
     &__heading {
