@@ -288,7 +288,7 @@
 
 .how-we-work {
   width: 100%;
-  background-image: url(../../../assets/img/how_we_work_bg.png);
+  background-image: url(../assets/img/how_we_work_bg.png);
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
@@ -642,7 +642,7 @@ a:nth-child(2) .our-packages__button-item {
 .history {
   margin-bottom: 80px;
   width: 100%;
-  background: url(../../assets/img/history-bg.png) no-repeat;
+  background: url(../assets/img/history-bg.png) no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   padding: 65px 0; }
@@ -652,13 +652,6 @@ a:nth-child(2) .our-packages__button-item {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -669,13 +662,13 @@ a:nth-child(2) .our-packages__button-item {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 50%;
       -ms-flex: 1 1 50%;
-          flex: 1 1 50%;
-  -webkit-align-self: center;
-      -ms-flex-item-align: center;
-          align-self: center; }
+          flex: 1 1 50%; }
 
 .history__img > img {
-  width: 100%; }
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 .history__right {
   -webkit-box-flex: 1;
