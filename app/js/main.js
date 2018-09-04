@@ -2,6 +2,8 @@ $(document).ready(function(){
 new WOW().init();
 });
 
+
+
 $(window).scroll(function(){
     if ($(this).scrollTop() > 600) {
         $('.scrollup').fadeIn('slow');
