@@ -14,5 +14,6 @@
 {% include "partials/update-support.html" %}
 {% include "partials/our-order.html" %}
 {% include "partials/bottom.html" %}
+{% include "partials/modal-window.html" %}
 
 {% endblock %}
