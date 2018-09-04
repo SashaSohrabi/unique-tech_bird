@@ -31,6 +31,13 @@
     border: transparent;
     padding-top: 30px;
     padding-bottom: 20px;
+    .navbar-toggle {
+      border: none;
+      background-color: #464646;
+    }
+    .icon-bar {
+      background-color: white;
+    }
     .navbar-nav {
       .active {
         &__link {
