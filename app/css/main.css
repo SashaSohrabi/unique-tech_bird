@@ -39,6 +39,13 @@
   padding-top: 30px;
   padding-bottom: 20px; }
 
+.main-menu .navbar-default .navbar-toggle {
+  border: none;
+  background-color: #464646; }
+
+.main-menu .navbar-default .icon-bar {
+  background-color: white; }
+
 .main-menu .navbar-default .navbar-nav .active__link {
   background-color: transparent;
   color: #464646;
