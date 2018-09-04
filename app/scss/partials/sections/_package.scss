@@ -15,6 +15,9 @@
         font-weight: 700;
         box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
         text-transform: uppercase;
+        @include small-screens {
+            font-size: 16px;
+        }
     }
     &__arrow-left {
         position: absolute;
@@ -26,6 +29,9 @@
             width: 100%;
             max-width: 80%;
         }
+        @include medium-screens {
+             display: none;
+         }
     }
 }
 

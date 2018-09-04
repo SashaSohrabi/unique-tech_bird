@@ -7,7 +7,7 @@ $button-color: #464646;
 }
 
 .headings {
-    &__title {
+   /* &__title {
         position: relative;
         width: 30%;
         margin: 5rem auto 10rem auto;
@@ -21,7 +21,7 @@ $button-color: #464646;
         font-weight: 700;
         box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
         text-transform: uppercase;
-    }
+    }*/
     &__arrow-right {
         position: absolute;
         top: 1.5rem;
@@ -31,6 +31,9 @@ $button-color: #464646;
         object {
             width: 100%;
             max-width: 80%;
+        }
+        @include medium-screens {
+            display: none;
         }
     }
 }
