@@ -16,6 +16,10 @@
   width: 100%;
   height: 50px; }
 
+@media only screen and (max-width: 768px) {
+  .main-menu__cap {
+    display: none; } }
+
 .main-menu .sticky {
   position: fixed;
   left: 0;
@@ -34,6 +38,14 @@
 .main-menu__logo:hover {
   -webkit-transform: scale3d(1.15, 1.15, 1.15);
           transform: scale3d(1.15, 1.15, 1.15); }
+
+@media only screen and (max-width: 992px) {
+  .main-menu__logo {
+    width: 170px; } }
+
+@media only screen and (max-width: 768px) {
+  .main-menu__logo {
+    margin-top: -5px; } }
 
 .main-menu li {
   list-style: none; }
@@ -74,6 +86,10 @@
 .main-menu .navbar-default .navbar-nav .active__link:hover {
   background-color: transparent;
   color: #fff; }
+
+@media only screen and (max-width: 992px) {
+  .main-menu .navbar-default .navbar-nav .active__link {
+    font-size: 11px; } }
 
 @media only screen and (max-width: 768px) {
   .main-menu .navbar-brand {
