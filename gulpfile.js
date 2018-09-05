@@ -57,6 +57,7 @@ gulp.task('browser-sync', function () {
     });
 });
 
+
 gulp.task('default', ['nunjucks', 'browser-sync', 'pages', 'scripts', 'sass'], function () {
     gulp.watch('app/scss/**/*.scss', ['sass']);
     gulp.watch('app/*.html', browserSync.reload);
