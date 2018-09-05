@@ -56,6 +56,9 @@
         &:hover {
             background-color: $yellow-color;
             color: white;
+            & object {
+                filter: invert(1);
+            }
         }
         object {
             width: 60px;
@@ -80,10 +83,6 @@
 // MEDIA
 
 @media (min-width: 1200px) {
-    html {
-        font-size: 16px;
-    }
-    
     .wrapper {
         max-width: 1005px;
     }
@@ -95,58 +94,51 @@
                 max-width: 80%;
             }
         }
-        &__title {
-            margin: 10rem auto 15rem auto;
-        }
-        &__grid {
-            grid-template-columns: repeat(3, 1fr);
-        }
     }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
-    html {
-        font-size: 14px;
-    }
-
     .wrapper {
         max-width: 970px;
-    }
-
-    .our-features {
-        &__title {
-            margin: 5rem auto 8rem auto;
-            font-weight: 600;
-        }
-        &__grid {
-            grid-template-columns: repeat(2, 45%);
-        }
     }
 }
 
 @media (max-width: 991px) and (min-width: 768px) {
-    html {
-        font-size: 14px;
-    }
-
     .wrapper {
         max-width: 750px;
     }
 
     .our-features {
+        width: 90%;
+        margin: 0 auto;
         &__arrow {
             object {
                 max-width: 60%;
             }
         }
-        &__title {
-            width: 50%;
-            margin: 3rem auto 6rem auto;
-            font-weight: 500;
-            font-size: 1.5rem;
+        &__grid {
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 15px 5px;
+        }
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .wrapper {
+        max-width: 600px;
+    }
+
+    .our-features {
+        width: 80%;
+        margin: 0 auto;
+        &__arrow {
+            object {
+                max-width: 60%;
+            }
         }
         &__grid {
-            grid-template-columns: 80%;
+            grid-template-columns: 1fr;
+            grid-gap: 10px 5px;
         }
     }
 }
