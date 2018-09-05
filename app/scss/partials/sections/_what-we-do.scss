@@ -84,4 +84,46 @@
     .wrapper {
         max-width: 750px;
     }
+    .what-we-do {
+        &__flex {
+            flex-direction: column;
+        }
+        &__image {
+            flex: 0 1 100%;
+            margin-right: 0;
+            margin-bottom: 20px;
+            order: 1;
+        }
+        &__description {
+            flex: 0 1 100%;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            order: 2;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .wrapper {
+        max-width: 600px;
+    }
+    .what-we-do {
+        &__flex {
+            flex-direction: column;
+        }
+        &__image {
+            flex: 0 1 100%;
+            margin-right: 0;
+            margin-bottom: 20px;
+            order: 1;
+        }
+        &__description {
+            flex: 0 1 100%;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            order: 2;
+        }
+    }
 }
