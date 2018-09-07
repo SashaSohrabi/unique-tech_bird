@@ -105,13 +105,13 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <img src="./assets/img/slider-img-placeholder.png" data-src="./assets/img/slider-img.png" alt="" class="b-lazy"/>
+                                    <img src="./assets/img/slider-img-placeholder.png" data-src="./assets/img/slider-img.png" alt="slider-img" class="b-lazy"/>
                                 </div>
                                 <div class="item">
-                                    <img src="./assets/img/slider-img.png" alt="" />
+                                    <img src="./assets/img/slider-img.png" alt="slider-img"/>
                                 </div>
                                 <div class="item">
-                                    <img src="./assets/img/slider-img.png" alt="" />
+                                    <img src="./assets/img/slider-img.png" alt="slider-img"/>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +137,7 @@
 
         <div class="what-we-do__flex">
             <div class="what-we-do__image wow fadeInLeft">
-                <img src="./assets/img/what_we_do(macbook).png" alt="macbook">
+                <img src="./assets/img/what_we_do(macbook).png" width="99%" alt="macbook">
             </div>
             <div class="what-we-do__description wow fadeInRight">
                 <h4 class="h4">web design</h4>
@@ -154,12 +154,12 @@
                 <button class="what-we-do__button">view more</button>
             </div>
             <div class="what-we-do__image text-align-right wow fadeInRight">
-                <img src="./assets/img/what_we_do(macbook).png" alt="macbook">
+                <img src="./assets/img/what_we_do(macbook).png" width="99%" alt="macbook">
             </div>
         </div>
         <div class="what-we-do__flex">
             <div class="what-we-do__image wow fadeInLeft">
-                <img src="./assets/img/what_we_do(macbook).png" alt="macbook">
+                <img src="./assets/img/what_we_do(macbook).png" width="99%" alt="macbook">
             </div>
             <div class="what-we-do__description wow fadeInRight">
                 <h4 class="h4">affiliate marketing</h4>
@@ -726,12 +726,10 @@
 
 <!-- modal window -->
 
-
-
-
 <script src="js/jquery-3.1.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/wow.min.js"></script>
+<script src="js/modernizr.min.js"></script>
 
 <!-- MIN THIS TO  -->
 <script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
@@ -748,7 +746,9 @@ var bLazy = new Blazy({
         parent.className = parent.className.replace(/\bloading\b/,'');
         }, 200);
         }
-   });</script>
+   });
+</script>
+
 <script src="js/main.js"></script>
 </body>
 </html>

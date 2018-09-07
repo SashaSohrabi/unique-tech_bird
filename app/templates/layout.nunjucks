@@ -25,6 +25,7 @@
 <script src="js/jquery-3.1.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/wow.min.js"></script>
+<script src="js/modernizr.min.js"></script>
 
 <!-- MIN THIS TO  -->
 <script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
@@ -41,7 +42,9 @@ var bLazy = new Blazy({
         parent.className = parent.className.replace(/\bloading\b/,'');
         }, 200);
         }
-   });</script>
+   });
+</script>
+
 <script src="js/main.js"></script>
 </body>
 </html>
