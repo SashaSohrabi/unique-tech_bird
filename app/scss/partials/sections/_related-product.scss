@@ -2,8 +2,8 @@
 @include google-font("Roboto");
 
 .related {
-	max-width: 1270px; //added by shb
-	margin: 0 auto -50px; //added by shb
+	max-width: 1270px;
+	margin: 0 auto -50px; 
 	padding-top: 60px;
 	position: relative;
 
@@ -20,21 +20,10 @@
 	        box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
 	        font-family: 'Source Sans Pro', sans-serif;
 
-			//added by shb
 			@include small-screens {
 				font-size: 16px;
 			}
       	}
-      	//commented by shb
-		/*.arrow--right {
-      		margin-top: -150px;
-      		&__img {
-      			margin-top: 90px;
-			    margin-right: -10px;
-			}
-      	}*/
-
-		//added by shb
 		.arrow--right {
 			&__img {
 				margin-top: 10px;
