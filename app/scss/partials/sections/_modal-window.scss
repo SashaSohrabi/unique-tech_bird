@@ -12,17 +12,15 @@
     overflow: hidden; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
-
-/* Modal Content/Box */
-.modal-content {
-    box-sizing: border-box;
-    text-align: center;
-    background-color: #fefefe;
-    margin: 10vh auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 60%; /* Could be more or less, depending on screen size */
+    &-content {
+        box-sizing: border-box;
+        text-align: center;
+        background-color: #fefefe;
+        margin: 10vh auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%; /* Could be more or less, depending on screen size */
+    }
 }
 
 /* The Close Button */
@@ -53,4 +51,26 @@ button.button {
 button.button:hover {
   border-bottom:#a99567 1px solid;
   color:#a99567;
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+    .modal {
+        &-content {
+            width: 80%;
+            & > img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .modal {
+        &-content {
+            width: 80%;
+            & > img {
+                width: 100%;
+            }
+        }
+    }
 }
