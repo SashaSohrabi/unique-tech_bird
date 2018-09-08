@@ -26,6 +26,7 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/modernizr.min.js"></script>
+<script src="js/modal.js"></script>
 
 <!-- MIN THIS TO  -->
 <script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
