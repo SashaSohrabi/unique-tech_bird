@@ -83,13 +83,14 @@
 		&__right {
 			flex: 1 1 100%;
 			padding-right: 0;
+			text-align: center;
 			&-btn--grey {
-				margin: 0 50%;
-	    		transform: translateX(-50%);
+				margin: 0 auto;
+	    		// transform: translateX(-50%);
 			}
 			&-btn--yellow {
-				margin: 0 50%;
-	    		transform: translateX(-50%);
+				margin: 0 auto;
+	    		// transform: translateX(-50%);
 			}
 		}
 	}
@@ -118,13 +119,12 @@
 			margin: 0 auto;
 			flex: 1 1 100%;
 			padding-right: 0;
+			text-align: center;
 			&-btn--grey {
-				margin: 0 50%;
-	    		transform: translateX(-50%);
+				margin: 0 auto;
 			}
 			&-btn--yellow {
-				margin: 0 50%;
-	    		transform: translateX(-50%);
+				margin: 0 auto;
 			}
 		}
 	}
