@@ -87,7 +87,7 @@
                             </p>
                         </div>
 
-                        <button class="btn btn-primary unique-apps__btn">View More <span><i
+                        <button class="btn btn-primary unique-apps__btn modal-button" data-modal="modal_welcome">View More <span><i
                                 class="btn__icon fa fa-paper-plane"></i></span>
                         </button>
                     </div>
@@ -143,7 +143,7 @@
                 <h4 class="h4">web design</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-                <button class="what-we-do__button">view more</button>
+                <button class="what-we-do__button modal-button" data-modal="modal_what-we-do">view more</button>
             </div>
         </div>
         <div class="what-we-do__flex">
@@ -151,7 +151,7 @@
                 <h4 class="h4">search engine optimization</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-                <button class="what-we-do__button">view more</button>
+                <button class="what-we-do__button modal-button" data-modal="modal_what-we-do">view more</button>
             </div>
             <div class="what-we-do__image text-align-right wow fadeInRight">
                 <img src="./assets/img/what_we_do(macbook).png" width="99%" alt="macbook">
@@ -165,7 +165,7 @@
                 <h4 class="h4">affiliate marketing</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.</p>
-                <div class="what-we-do__button">view more</div>
+                <div class="what-we-do__button modal-button" data-modal="modal_what-we-do">view more</div>
             </div>
         </div>
     </div>
@@ -375,17 +375,17 @@
         </div>
         <div class="our-packages__button">
             <a href="#">
-                <div class="our-packages__button-item our-packages__button--grey">
+                <div class="our-packages__button-item our-packages__button--grey modal-button" data-modal="modal_our-packages">
                     ORDER NOW
                 </div>
             </a>
             <a href="#">
-                <div class="our-packages__button-item our-packages__button--red">
+                <div class="our-packages__button-item our-packages__button--red modal-button" data-modal="modal_our-packages">
                     ORDER NOW
                 </div>
             </a>
             <a href="#">
-                <div class="our-packages__button-item our-packages__button--orange">
+                <div class="our-packages__button-item our-packages__button--orange modal-button" data-modal="modal_our-packages">
                     ORDER NOW
                 </div>
             </a>
@@ -406,7 +406,7 @@
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eausmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
 					<br>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatisquasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
 				</div>
-				<button class="history__right-btn--yellow fadeInRight" type="submit">Browse our story</button>
+				<button class="history__right-btn--yellow fadeInRight modal-button" data-modal="modal_our-history" type="submit">Browse our story</button>
 			</div>
 		</div>
 	</div>
@@ -549,7 +549,7 @@
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
                     </p>
                     <div class="supports__btn">
-                        <button class="btn btn-primary">SUPPORT CENTER</button>
+                        <button class="btn btn-primary modal-button" data-modal="modal_updates">SUPPORT CENTER</button>
                     </div>
                 </div>
             </div>
@@ -724,12 +724,54 @@
     </div>
 </div>
 
-<!-- modal window -->
+<div id="modal_what-we-do" class="modal">
+    <div class="modal-content">
+        <a class="close">&times;</a>
+        <h2>What We Do <br>Modal Window :D</h2>
+        <img src="./assets/img/deb.png" alt="">
+    </div>
+</div>
+
+<div id="modal_welcome" class="modal">
+    <div class="modal-content">
+        <a class="close">&times;</a>
+        <h2>Main Block <br>Modal Window :D</h2>
+        <img src="./assets/img/deb.png" alt="">
+    </div>
+</div>
+
+<div id="modal_our-packages" class="modal">
+    <div class="modal-content">
+        <a class="close">&times;</a>
+        <h2>Our Packages <br>Modal Window :D</h2>
+        <img src="./assets/img/deb.png" alt="">
+    </div>
+</div>
+
+<div id="modal_our-history" class="modal">
+    <div class="modal-content">
+        <a class="close">&times;</a>
+        <h2>Our History <br>Modal Window :D</h2>
+        <img src="./assets/img/deb.png" alt="">
+    </div>
+</div>
+
+<div id="modal_updates" class="modal">
+    <div class="modal-content">
+        <a class="close">&times;</a>
+        <h2>Updates & Support <br>Modal Window :D</h2>
+        <img src="./assets/img/deb.png" alt="">
+    </div>
+</div>
+
+
+
 
 <script src="js/jquery-3.1.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/wow.min.js"></script>
 <script src="js/modernizr.min.js"></script>
+<script src="js/modal.js"></script>
 
 <!-- MIN THIS TO  -->
 <script src="//cdn.jsdelivr.net/blazy/latest/blazy.min.js"></script>
