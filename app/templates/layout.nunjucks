@@ -12,9 +12,10 @@
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
+    <!--<link rel="stylesheet" href="css/normalize.css">-->
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="css/main.css">-->
+    <link rel="stylesheet" href="css/bundle.css">
 </head>
 <body>
 
