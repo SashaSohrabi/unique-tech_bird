@@ -1159,12 +1159,21 @@ a .our-packages__button-item {
   height: 125px;
   background: #ebebeb;
   overflow: hidden;
-  margin-bottom: -10px; }
+  margin-bottom: -10px;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
 
 .members .members-image__img {
   position: absolute;
   left: 14px;
   top: 20px; }
+
+.members .members-image:hover {
+  -webkit-transform: scale3d(1.1, 1.1, 1.1);
+          transform: scale3d(1.1, 1.1, 1.1);
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
 
 @media only screen and (max-width: 992px) {
   .members__ashley {
