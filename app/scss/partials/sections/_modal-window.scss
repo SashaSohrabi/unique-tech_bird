@@ -53,8 +53,7 @@ button.button:hover {
   color:#a99567;
 }
 
-
-@include large-screens {
+@media (max-width: 991px) and (min-width: 768px) {
     .modal {
         &-content {
             width: 80%;
@@ -65,7 +64,7 @@ button.button:hover {
     }
 }
 
-@include medium-screens {
+@media (max-width: 767px) and (min-width: 320px) {
     .modal {
         &-content {
             width: 95%;
@@ -74,15 +73,4 @@ button.button:hover {
             }
         }
     }
-}
-
-@include small-screens {
-    .modal {
-        &-content {
-            width: 95%;
-            & > img {
-                width: 100%;
-            }
-        }
-    } 
 }

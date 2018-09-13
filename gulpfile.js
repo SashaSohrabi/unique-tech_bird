@@ -25,8 +25,7 @@ gulp.task('concatCss', function () {
     return gulp.src('app/css/*.css')
         .pipe(concatCss("bundle.css"))
         .pipe(csso())
-        .pipe(gulp.dest('app/dist'))
-        .pipe(browserSync.reload({stream: true}))
+        .pipe(gulp.dest('app/css'));
 });
 
 gulp.task('image-min', function () {

@@ -2,28 +2,28 @@
 
 // Small devices (landscape phones, 576px and up)
 @mixin small-screens() {
-  @media (min-width: 320px) and (max-width: 576px) {
+  @media only screen and (max-width: 576px) {
     @content;
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @mixin medium-screens() {
-  @media (min-width: 575px) and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     @content;
   }
 }
 
 // Large devices (desktops, 992px and up)
 @mixin large-screens() {
-  @media (min-width: 767px) and (max-width: 992px) {
+  @media only screen and (max-width: 992px) {
     @content;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @mixin extra-large-screens() {
-  @media (min-width: 993px) and (max-width: 1200px) {
+  @media only screen and (max-width: 1200px) {
     @content;
   }
 }
