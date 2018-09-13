@@ -52,25 +52,20 @@
     }
     .supports__btn {
       button {
+        @include yellow-button;
         margin: 15px 0;
-        border: none;
-        background: #ffc038;
         padding: 15px 30px;
         color: #464646;
         font-size: 12px;
-        font-family: 'Open Sans', sans-serif;
         font-weight: 700;
-        text-transform: uppercase;
-        box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, .5);
-        transition: background .3s;
+       
         @include small-screens {
           margin-top: 30px;
           margin-left: 50%;
           transform: translateX(-50%);
         }
         &:hover {
-          background: #464646;
-          color: #fff;
+          @include onHover;
         }
       }
     }
@@ -79,7 +74,7 @@
     max-width: 1005px;
     margin: 0 auto;
 
-    @include medium-screens {
+    @include small-screens {
       display: flex;
       flex-direction: column-reverse;
 
