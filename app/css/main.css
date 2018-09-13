@@ -279,25 +279,27 @@
       -ms-user-select: none;
           user-select: none;
   font-weight: bold;
-  font-family: 'Open Sans';
-  text-align: center;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 151px;
-  height: 50px;
+  font-family: 'Open Sans', sans-serif;
   background-color: #ffc038;
   color: #715d3a;
   text-transform: uppercase;
   font-size: 14px;
   -webkit-border-radius: 2px;
           border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 151px;
+  height: 50px;
   padding: 15px 30px;
   -webkit-box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
-          box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s; }
+          box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25); }
 
 .what-we-do__button:hover {
   background-color: #464646;
@@ -850,21 +852,21 @@ a .our-packages__button-item {
       -ms-user-select: none;
           user-select: none;
   font-weight: bold;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   background-color: #ffc038;
   color: #715d3a;
   text-transform: uppercase;
   font-size: 14px;
-  -webkit-border-radius: 3px;
-          border-radius: 3px;
-  padding: 15px 10px;
-  margin-top: 20px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
   -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
   cursor: pointer;
   -webkit-transition: background 0.3s;
   -o-transition: background 0.3s;
-  transition: background 0.3s; }
+  transition: background 0.3s;
+  margin-top: 20px;
+  padding: 15px 10px; }
 
 .history__right-btn--yellow:hover {
   background-color: #464646;
@@ -1335,20 +1337,35 @@ a .our-packages__button-item {
   font-weight: 300; }
 
 .supports__content .supports__btn button {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  white-space: nowrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ffc038;
+  color: #715d3a;
+  text-transform: uppercase;
+  font-size: 14px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  -webkit-transition: background 0.3s;
+  -o-transition: background 0.3s;
+  transition: background 0.3s;
   margin: 15px 0;
-  border: none;
-  background: #ffc038;
   padding: 15px 30px;
   color: #464646;
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  -webkit-box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
-          box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
-  -webkit-transition: background .3s;
-  -o-transition: background .3s;
-  transition: background .3s; }
+  font-weight: 700; }
 
 @media only screen and (max-width: 576px) {
   .supports__content .supports__btn button {
@@ -1359,8 +1376,8 @@ a .our-packages__button-item {
             transform: translateX(-50%); } }
 
 .supports__content .supports__btn button:hover {
-  background: #464646;
-  color: #fff; }
+  background-color: #464646;
+  color: #ffffff; }
 
 .supports__inner {
   max-width: 1005px;
@@ -1446,8 +1463,8 @@ a .our-packages__button-item {
   font-size: 20px;
   font-weight: 700;
   border: none;
-  -webkit-border-radius: 0;
-          border-radius: 0;
+  -webkit-border-radius: 2px;
+          border-radius: 2px;
   padding: 10px 30px;
   text-transform: uppercase;
   margin: 25px;
