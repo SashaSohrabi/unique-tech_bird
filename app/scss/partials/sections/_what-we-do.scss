@@ -1,7 +1,4 @@
-@include google-font("Roboto");
-
 .wrapper {
-    // width: 1170px;
     margin: 0 auto;
 }
 
@@ -59,13 +56,13 @@
     }
 }
 
-@media (max-width: 1199px) and (min-width: 992px) {
+@include extra-large-screens {
     .wrapper {
         max-width: 970px;
     }
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
+@include large-screens {
     .wrapper {
         max-width: 750px;
     }
@@ -91,13 +88,17 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@include medium-screens {
     .wrapper {
         max-width: 600px;
     }
     .what-we-do {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
+        &__content {
+            width: 80%;
+            margin: 0 auto;
+        }
         &__flex {
             flex-direction: column;
             margin-bottom: 100px;
