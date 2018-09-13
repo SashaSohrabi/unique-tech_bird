@@ -434,7 +434,7 @@
 
 .headings__arrow-right object {
   width: 100%;
-  max-width: 50%; }
+  max-width: 40%; }
 
 @media only screen and (max-width: 768px) {
   .headings__arrow-right {
@@ -544,7 +544,7 @@
 
 .headings__arrow-left object {
   width: 100%;
-  max-width: 50%; }
+  max-width: 40%; }
 
 @media only screen and (max-width: 768px) {
   .headings__arrow-left {
