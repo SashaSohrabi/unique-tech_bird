@@ -13,7 +13,7 @@
     }
 }
 
-@media (max-width: 991px) and (min-width: 768px) {
+@include small-screens {
     .how-we-work__image {
         display: none;
         visibility: hidden;
@@ -24,7 +24,18 @@
     }
 }
 
-@media (max-width: 767px) {
+@include medium-screens {
+    .how-we-work__image {
+        display: none;
+        visibility: hidden;
+    }
+    .how-we-work__image-mobile {
+        display: block;
+        visibility: visible;
+    }
+}
+
+@include large-screens {
     .how-we-work__image {
         display: none;
         visibility: hidden;
