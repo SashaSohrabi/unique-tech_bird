@@ -114,6 +114,10 @@
   .header {
     padding-top: 100px; } }
 
+@media only screen and (max-width: 768px) {
+  .header {
+    padding-top: 50px; } }
+
 .header .homepage-style {
   padding-top: 50px;
   max-width: 1005px;
@@ -124,7 +128,7 @@
   height: 50px;
   margin: 0 auto; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   .header .homepage-style {
     display: -webkit-box;
     display: -webkit-flex;
@@ -147,6 +151,10 @@
 @media only screen and (max-width: 768px) {
   .header .unique-apps {
     max-width: 100%;
+    margin-top: -100px; } }
+
+@media only screen and (max-width: 576px) {
+  .header .unique-apps {
     margin-top: 0; } }
 
 .header .unique-apps__heading {
@@ -1355,7 +1363,7 @@ a .our-packages__button-item {
   max-width: 1005px;
   margin: 0 auto; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 576px) {
   .supports__inner {
     display: -webkit-box;
     display: -webkit-flex;

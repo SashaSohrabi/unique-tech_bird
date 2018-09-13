@@ -112,6 +112,10 @@
     padding-top: 100px;
   }
 
+  @include medium-screens {
+    padding-top: 50px;
+  }
+
   .homepage-style {
     padding-top: 50px;
     max-width: 1005px;
@@ -123,7 +127,7 @@
       margin: 0 auto;
     }
 
-    @include medium-screens {
+    @include small-screens {
       display: flex;
       flex-direction: column-reverse;
     }
@@ -137,6 +141,10 @@
     }
     @include medium-screens {
       max-width: 100%;
+      margin-top: -100px;
+    }
+
+    @include small-screens {
       margin-top: 0;
     }
 
