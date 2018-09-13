@@ -25,7 +25,7 @@ gulp.task('concatCss', function () {
     return gulp.src('app/css/*.css')
         .pipe(concatCss("bundle.css"))
         .pipe(csso())
-        .pipe(gulp.dest('app/dist'))
+        .pipe(gulp.dest('app/build'))
         .pipe(browserSync.reload({stream: true}))
 });
 

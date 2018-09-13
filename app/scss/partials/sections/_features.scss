@@ -11,7 +11,7 @@
         padding-left: 4rem;
         object {
             width: 100%;
-            max-width: 80%;
+            max-width: 50%;
         }
         @include medium-screens {
             display: none;
@@ -65,30 +65,21 @@
 }
 
 // MEDIA
-
-@media (min-width: 1200px) {
-    .our-features {
-        &__arrow {
-            transform: translateX(65%);
-            object {
-                max-width: 80%;
-            }
-        }
-    }
-}
-
 @include large-screens {
     .our-features {
         width: 90%;
         margin: 0 auto;
-        &__arrow {
-            object {
-                max-width: 60%;
-            }
-        }
         &__grid {
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 15px 5px;
+        }
+    }
+    .headings {
+        &__arrow-right {
+            object {
+                width: 100%;
+                max-width: 40%;
+            }
         }
     }
 }
@@ -97,30 +88,31 @@
     .our-features {
         width: 80%;
         margin: 0 auto;
-        &__arrow {
-            object {
-                max-width: 60%;
-            }
-        }
         &__grid {
             grid-template-columns: 1fr;
             grid-gap: 10px 5px;
         }
     }
+    .headings {
+        &__title {
+            width: 70%;
+        }
+    }
+    
 }
 
 @include small-screens {
     .our-features {
         width: 80%;
         margin: 0 auto;
-        &__arrow {
-            object {
-                max-width: 60%;
-            }
-        }
         &__grid {
             grid-template-columns: 1fr;
             grid-gap: 10px 5px;
+        }
+    }
+    .headings {
+        &__title {
+            width: 60%;
         }
     } 
 }

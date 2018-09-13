@@ -1,7 +1,7 @@
 .headings {
     &__title {
         position: relative;
-        width: 30%;
+        width: 40%;
         margin: 5rem auto 10rem auto;
         padding: 10px 20px;
         border-radius: 3px;
@@ -24,7 +24,7 @@
         padding-right: 4rem;
         object {
             width: 100%;
-            max-width: 80%;
+            max-width: 50%;
         }
         @include medium-screens {
              display: none;
@@ -196,6 +196,17 @@
                 & .scale-block {
                     transform: scale(1.5);
                 }
+            }
+        }
+    }
+    .headings {
+        &__title {
+            width: 60%;
+        }
+        &__arrow-left {
+            object {
+                width: 100%;
+                max-width: 40%;
             }
         }
     }
