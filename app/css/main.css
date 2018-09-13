@@ -306,9 +306,6 @@
 .text-align-right {
   text-align: right; }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 992px) {
-=======
 @media (min-width: 1200px) {
   .wrapper {
     max-width: 1005px; } }
@@ -320,7 +317,6 @@
 @media (max-width: 991px) and (min-width: 768px) {
   .wrapper {
     max-width: 750px; }
->>>>>>> master
   .what-we-do {
     width: 90%;
     margin: 0 auto; }
@@ -354,47 +350,9 @@
         -ms-flex-order: 2;
             order: 2; } }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 768px) {
-  .what-we-do {
-    width: 80%;
-    margin: 0 auto; }
-  .what-we-do__flex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-bottom: 100px; }
-  .what-we-do__image {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 1 100%;
-        -ms-flex: 0 1 100%;
-            flex: 0 1 100%;
-    margin-right: 0;
-    margin-bottom: 10px;
-    -webkit-box-ordinal-group: 2;
-    -webkit-order: 1;
-        -ms-flex-order: 1;
-            order: 1; }
-  .what-we-do__description {
-    -webkit-box-flex: 0;
-    -webkit-flex: 0 1 100%;
-        -ms-flex: 0 1 100%;
-            flex: 0 1 100%;
-    margin: 0 auto;
-    text-align: center;
-    -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
-        -ms-flex-order: 2;
-            order: 2; } }
-
-@media only screen and (max-width: 576px) {
-=======
 @media (min-width: 320px) and (max-width: 767px) {
   .wrapper {
     max-width: 600px; }
->>>>>>> master
   .what-we-do {
     width: 80%;
     margin: 0 auto; }
@@ -443,19 +401,7 @@
   display: none;
   visibility: hidden; }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 576px) {
-  .how-we-work__image {
-    display: none;
-    visibility: hidden; }
-  .how-we-work__image-mobile {
-    display: block;
-    visibility: visible; } }
-
-@media only screen and (max-width: 768px) {
-=======
 @media (max-width: 991px) and (min-width: 768px) {
->>>>>>> master
   .how-we-work__image {
     display: none;
     visibility: hidden; }
@@ -463,11 +409,7 @@
     display: block;
     visibility: visible; } }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 992px) {
-=======
 @media (max-width: 767px) {
->>>>>>> master
   .how-we-work__image {
     display: none;
     visibility: hidden; }
@@ -506,16 +448,9 @@
 
 .headings__arrow-right object {
   width: 100%;
-  max-width: 50%; }
+  max-width: 80%; }
 
 @media only screen and (max-width: 768px) {
-<<<<<<< HEAD
-  .headings__arrow-right {
-    display: none; } }
-
-@media only screen and (max-width: 576px) {
-=======
->>>>>>> master
   .headings__arrow-right {
     display: none; } }
 
@@ -566,9 +501,6 @@
   font-size: 14px;
   font-weight: 300; }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 992px) {
-=======
 @media (min-width: 1200px) {
   .wrapper {
     max-width: 1005px; }
@@ -586,46 +518,30 @@
 @media (max-width: 991px) and (min-width: 768px) {
   .wrapper {
     max-width: 750px; }
->>>>>>> master
   .our-features {
     width: 90%;
     margin: 0 auto; }
+  .our-features__arrow object {
+    max-width: 60%; }
   .our-features__grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 15px 5px; }
-  .headings__arrow-right object {
-    width: 100%;
-    max-width: 40%; } }
+    grid-gap: 15px 5px; } }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 768px) {
-  .our-features {
-    width: 80%;
-    margin: 0 auto; }
-  .our-features__grid {
-    grid-template-columns: 1fr;
-    grid-gap: 10px 5px; }
-  .headings__title {
-    width: 70%; } }
-
-@media only screen and (max-width: 576px) {
-=======
 @media (max-width: 767px) and (min-width: 320px) {
   .wrapper {
     max-width: 600px; }
->>>>>>> master
   .our-features {
     width: 80%;
     margin: 0 auto; }
+  .our-features__arrow object {
+    max-width: 60%; }
   .our-features__grid {
     grid-template-columns: 1fr;
-    grid-gap: 10px 5px; }
-  .headings__title {
-    width: 60%; } }
+    grid-gap: 10px 5px; } }
 
 .headings__title {
   position: relative;
-  width: 40%;
+  width: 30%;
   margin: 5rem auto 10rem auto;
   padding: 10px 20px;
   -webkit-border-radius: 3px;
@@ -655,16 +571,9 @@
 
 .headings__arrow-left object {
   width: 100%;
-  max-width: 50%; }
+  max-width: 80%; }
 
 @media only screen and (max-width: 768px) {
-<<<<<<< HEAD
-  .headings__arrow-left {
-    display: none; } }
-
-@media only screen and (max-width: 576px) {
-=======
->>>>>>> master
   .headings__arrow-left {
     display: none; } }
 
@@ -824,61 +733,19 @@ a .our-packages__button-item {
   .wrapper {
     max-width: 1005px; } }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 1200px) {
-  .wrapper {
-    max-width: 970px; } }
-
-@media only screen and (max-width: 992px) {
-=======
 @media (max-width: 1199px) and (min-width: 992px) {
   .wrapper {
     max-width: 970px; } }
 
 @media (max-width: 991px) and (min-width: 768px) {
->>>>>>> master
   .wrapper {
     max-width: 750px; }
   .our-packages__flex:hover .scale-block {
     -webkit-transform: scale(1.5);
         -ms-transform: scale(1.5);
-            transform: scale(1.5); }
-  .headings__title {
-    width: 60%; }
-  .headings__arrow-left object {
-    width: 100%;
-    max-width: 40%; } }
+            transform: scale(1.5); } }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 768px) {
-  .wrapper {
-    max-width: 600px; }
-  .our-packages__flex-item {
-    padding: 15px 10px; }
-  .our-packages__flex:hover .scale-block {
-    -webkit-transform: scale(1);
-        -ms-transform: scale(1);
-            transform: scale(1); }
-  a > .our-packages__button-item {
-    font-size: 12px;
-    width: 100px;
-    height: 40px;
-    text-align: center;
-    padding: 12px 0; }
-  .fs-16 {
-    font-size: 14px; }
-  .fs-35 {
-    font-size: 32px; }
-  .br {
-    visibility: visible;
-    display: block; }
-  .headings__title {
-    width: 70%; } }
-
-@media only screen and (max-width: 576px) {
-=======
 @media (max-width: 767px) and (min-width: 320px) {
->>>>>>> master
   .wrapper {
     max-width: 600px; }
   .our-packages__flex-item {
@@ -1836,27 +1703,13 @@ button.button:hover {
   border-bottom: #a99567 1px solid;
   color: #a99567; }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 992px) {
-=======
 @media (max-width: 991px) and (min-width: 768px) {
->>>>>>> master
   .modal-content {
     width: 80%; }
   .modal-content > img {
     width: 100%; } }
 
-<<<<<<< HEAD
-@media only screen and (max-width: 768px) {
-  .modal-content {
-    width: 95%; }
-  .modal-content > img {
-    width: 100%; } }
-
-@media only screen and (max-width: 576px) {
-=======
 @media (max-width: 767px) and (min-width: 320px) {
->>>>>>> master
   .modal-content {
     width: 95%; }
   .modal-content > img {
