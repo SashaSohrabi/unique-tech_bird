@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto:100,300,700|Source+Sans+Pro:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:100,300,400,500,700|Source+Sans+Pro:700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
@@ -304,7 +306,21 @@
 .text-align-right {
   text-align: right; }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 992px) {
+=======
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1005px; } }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .wrapper {
+    max-width: 970px; } }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .wrapper {
+    max-width: 750px; }
+>>>>>>> master
   .what-we-do {
     width: 90%;
     margin: 0 auto; }
@@ -338,6 +354,7 @@
         -ms-flex-order: 2;
             order: 2; } }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 768px) {
   .what-we-do {
     width: 80%;
@@ -373,6 +390,11 @@
             order: 2; } }
 
 @media only screen and (max-width: 576px) {
+=======
+@media (min-width: 320px) and (max-width: 767px) {
+  .wrapper {
+    max-width: 600px; }
+>>>>>>> master
   .what-we-do {
     width: 80%;
     margin: 0 auto; }
@@ -421,6 +443,7 @@
   display: none;
   visibility: hidden; }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 576px) {
   .how-we-work__image {
     display: none;
@@ -430,6 +453,9 @@
     visibility: visible; } }
 
 @media only screen and (max-width: 768px) {
+=======
+@media (max-width: 991px) and (min-width: 768px) {
+>>>>>>> master
   .how-we-work__image {
     display: none;
     visibility: hidden; }
@@ -437,7 +463,11 @@
     display: block;
     visibility: visible; } }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 992px) {
+=======
+@media (max-width: 767px) {
+>>>>>>> master
   .how-we-work__image {
     display: none;
     visibility: hidden; }
@@ -447,6 +477,23 @@
 
 .wrapper {
   margin: 0 auto; }
+
+.headings {
+  /* &__title {
+        position: relative;
+        width: 30%;
+        margin: 5rem auto 10rem auto;
+        padding: 10px 20px;
+        border-radius: 3px;
+        background-color: $button-color;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        font-family: 'Source Sans Pro';
+        font-weight: 700;
+        box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+        text-transform: uppercase;
+    }*/ }
 
 .headings__arrow-right {
   position: absolute;
@@ -462,10 +509,13 @@
   max-width: 50%; }
 
 @media only screen and (max-width: 768px) {
+<<<<<<< HEAD
   .headings__arrow-right {
     display: none; } }
 
 @media only screen and (max-width: 576px) {
+=======
+>>>>>>> master
   .headings__arrow-right {
     display: none; } }
 
@@ -516,7 +566,27 @@
   font-size: 14px;
   font-weight: 300; }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 992px) {
+=======
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1005px; }
+  .our-features__arrow {
+    -webkit-transform: translateX(65%);
+        -ms-transform: translateX(65%);
+            transform: translateX(65%); }
+  .our-features__arrow object {
+    max-width: 80%; } }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .wrapper {
+    max-width: 970px; } }
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .wrapper {
+    max-width: 750px; }
+>>>>>>> master
   .our-features {
     width: 90%;
     margin: 0 auto; }
@@ -527,6 +597,7 @@
     width: 100%;
     max-width: 40%; } }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 768px) {
   .our-features {
     width: 80%;
@@ -538,6 +609,11 @@
     width: 70%; } }
 
 @media only screen and (max-width: 576px) {
+=======
+@media (max-width: 767px) and (min-width: 320px) {
+  .wrapper {
+    max-width: 600px; }
+>>>>>>> master
   .our-features {
     width: 80%;
     margin: 0 auto; }
@@ -564,8 +640,11 @@
           box-shadow: 1px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
   text-transform: uppercase; }
 
+@media only screen and (max-width: 576px) {
+  .headings__title {
+    font-size: 16px; } }
+
 .headings__arrow-left {
-  display: block;
   position: absolute;
   top: 1.5rem;
   right: 50%;
@@ -579,10 +658,13 @@
   max-width: 50%; }
 
 @media only screen and (max-width: 768px) {
+<<<<<<< HEAD
   .headings__arrow-left {
     display: none; } }
 
 @media only screen and (max-width: 576px) {
+=======
+>>>>>>> master
   .headings__arrow-left {
     display: none; } }
 
@@ -742,11 +824,19 @@ a .our-packages__button-item {
   .wrapper {
     max-width: 1005px; } }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1200px) {
   .wrapper {
     max-width: 970px; } }
 
 @media only screen and (max-width: 992px) {
+=======
+@media (max-width: 1199px) and (min-width: 992px) {
+  .wrapper {
+    max-width: 970px; } }
+
+@media (max-width: 991px) and (min-width: 768px) {
+>>>>>>> master
   .wrapper {
     max-width: 750px; }
   .our-packages__flex:hover .scale-block {
@@ -759,6 +849,7 @@ a .our-packages__button-item {
     width: 100%;
     max-width: 40%; } }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 768px) {
   .wrapper {
     max-width: 600px; }
@@ -785,6 +876,9 @@ a .our-packages__button-item {
     width: 70%; } }
 
 @media only screen and (max-width: 576px) {
+=======
+@media (max-width: 767px) and (min-width: 320px) {
+>>>>>>> master
   .wrapper {
     max-width: 600px; }
   .our-packages__flex-item {
@@ -805,10 +899,7 @@ a .our-packages__button-item {
     font-size: 32px; }
   .br {
     visibility: visible;
-    display: block; }
-  .headings__title {
-    width: 60%;
-    font-size: 16px; } }
+    display: block; } }
 
 .history {
   margin-bottom: 80px;
@@ -1745,12 +1836,17 @@ button.button:hover {
   border-bottom: #a99567 1px solid;
   color: #a99567; }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 992px) {
+=======
+@media (max-width: 991px) and (min-width: 768px) {
+>>>>>>> master
   .modal-content {
     width: 80%; }
   .modal-content > img {
     width: 100%; } }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 768px) {
   .modal-content {
     width: 95%; }
@@ -1758,6 +1854,9 @@ button.button:hover {
     width: 100%; } }
 
 @media only screen and (max-width: 576px) {
+=======
+@media (max-width: 767px) and (min-width: 320px) {
+>>>>>>> master
   .modal-content {
     width: 95%; }
   .modal-content > img {
