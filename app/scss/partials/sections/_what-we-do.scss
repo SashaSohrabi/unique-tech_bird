@@ -1,7 +1,4 @@
-@include google-font("Roboto");
-
 .wrapper {
-    // width: 1170px;
     margin: 0 auto;
 }
 
@@ -68,22 +65,7 @@
     text-align: right;
 }
 
-@media (min-width: 1200px) {
-    .wrapper {
-        max-width: 1005px;
-    }
-}
-
-@media (max-width: 1199px) and (min-width: 992px) {
-    .wrapper {
-        max-width: 970px;
-    }
-}
-
-@media (max-width: 991px) and (min-width: 768px) {
-    .wrapper {
-        max-width: 750px;
-    }
+@include large-screens {
     .what-we-do {
         width: 90%;
         margin: 0 auto;
@@ -106,10 +88,30 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
-    .wrapper {
-        max-width: 600px;
+@include medium-screens {
+    .what-we-do {
+        width: 80%;
+        margin: 0 auto;
+        &__flex {
+            flex-direction: column;
+            margin-bottom: 100px;
+        }
+        &__image {
+            flex: 0 1 100%;
+            margin-right: 0;
+            margin-bottom: 10px;
+            order: 1;
+        }
+        &__description {
+            flex: 0 1 100%;
+            margin: 0 auto;
+            text-align: center;
+            order: 2;
+        }
     }
+}
+
+@include small-screens {
     .what-we-do {
         width: 80%;
         margin: 0 auto;
