@@ -1,3 +1,3 @@
 # unique-tech_bird
 
-[Click me](https://mateacademy-fe-study.github.io/unique-tech_bird/app/index.html)
+[Click me](https://mateacademy-fe-study.github.io/unique-tech_bird/app/)
